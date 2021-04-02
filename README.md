@@ -12,8 +12,7 @@ the site is B2C there will be large images and illustrations on the website and 
 feel overloaded with content for the users.
 
 ### 2 Scope
- 
-Site owners’ goal: To create an online presence and inform about the company, the product, and location.
+ Site owners’ goal: To create an online presence and inform about the company, the product, and location.
 
 User goals: Get information about the company, the product and where the ice cream shops are available. 
 
@@ -31,10 +30,8 @@ The structure will have a linear narrative so that it is easy for the user to
 use the website from the start, and this is important so that it will not be
 confusing for someone who visits the website for the first time to find the 
 information that they need. The most important content will be presented first
-on the webpage, that the company sells vegan oat-based ice cream and then moving 
-down the structure more specific content about the company, flavors, locations 
-and at the end a contact form for the customers who wants to contact the company 
-will be presented. 
+on the webpage and content to get the user interested, then moving down the 
+website more specific information will be presented.  
 
 ### 4 Skeleton
 
