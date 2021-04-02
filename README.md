@@ -68,6 +68,31 @@ font is Sans Seriff.
 
 ## Features 
 
+- Navbar 
+    - The navbar will be sticky so that the user always easily can get to 
+the different part of the website. The navbar becomes a drop down menue
+on tablet and mobile devices. 
+- Footer 
+    - The footer will contain links to social platforms so the user can find 
+the company on diffent platforms and the conpany logo. 
+- Home 
+    - The home section will conatin a hero image and the company logo and 
+    text about the product that the company sells. 
+- About us
+    - The about us section will contain a short text about the company and 
+    a image. 
+- Our flavours
+    - The flavours section will contain all the different flavours of icecream
+    that the company offers. 
+- Our Location 
+    - The location section will contain three buttons with the cities that the
+    ice cream shops are avalibe in and a Google maps where you can see where in 
+    the city the shops are located. This section will also conatin the opening
+    hours of the ice cream shops. 
+- Contact 
+    - The contact section will contain a contact form that users can use if they
+    want to get in contact with the company.
+
 ## Technologies Used
 
 ## Testing
