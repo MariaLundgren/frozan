@@ -34,6 +34,22 @@ on the webpage and content to get the user interested, then moving down the
 website more specific information will be presented.  
 
 ### 4 Skeleton
+That the company sells vegan oat-based ice cream will be the first thing 
+presented on the website since this is the information that are the most 
+prioritized on the webpage. Then moving down the structure more specific 
+content about the company, flavors, locations and at the end a contact 
+form for the customers who wants to contact the company will be presented.
+
+The website has a lot of whitespace in the design, and this is both to 
+make the design mor minimalistic and less cluttered but also because to 
+have a few features increases the usability which is highly prioritized 
+on the website. 
+
+Figma were used to create the wireframes that are linked below.
+
+- Desktop 
+- Tablet 
+- Mobile
 
 ### 5 Surface
 
