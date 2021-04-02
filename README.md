@@ -13,6 +13,22 @@ feel overloaded with content for the users.
 
 ### 2 Scope
 
+This project priorities the most important features needed for the website and more features could be added later, like the ones that was not 
+in the need to do in the viability/feasibility diagram in the strategy section. 
+ 
+Site owners’ goal: To create an online presence and inform about the company, the product, and location.
+
+User goals: Get information about the company, the product and where the ice cream shops are available. 
+
+User stories 
+-	As a user I want to get information about the company.
+-	As a user I want to get information about the product the company is selling. 
+-	As a user I want to be able to contact the company with questions and feedback. 
+-	As a user I want to know where the ice cream shops are located. 
+-   As a user I want to see on where the map the ice cream shops are located.
+-	As a user I want to know the opening hours of the ice cream shops. 
+-	As a user I want to be able to find the social channels of the company. 
+
 ### 3 Structure 
 
 ### 4 Skeleton
