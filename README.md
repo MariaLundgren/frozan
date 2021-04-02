@@ -53,6 +53,19 @@ Figma were used to create the wireframes that are linked below.
 
 ### 5 Surface
 
+#### Colors
+The color palette chosen for this project is soft to match the theme of 
+icecream and feel fun. The pink color beeing the strongest is used sparsingly 
+throug the design to direct attention to sertain elements and the dark grey
+color is used for text to have a good legibility but still be softer than 
+a pure black color for the font.
+
+#### Typography 
+Both fonts chosen for this project is found on Google fonts, Quicksand
+is used for the logo and for the rest of the text Open Sans is used since 
+it is a font that suits the web and have good legibility. The fallback 
+font is Sans Seriff. 
+
 ## Features 
 
 ## Technologies Used
