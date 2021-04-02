@@ -12,9 +12,6 @@ the site is B2C there will be large images and illustrations on the website and 
 feel overloaded with content for the users.
 
 ### 2 Scope
-
-This project priorities the most important features needed for the website and more features could be added later, like the ones that was not 
-in the need to do in the viability/feasibility diagram in the strategy section. 
  
 Site owners’ goal: To create an online presence and inform about the company, the product, and location.
 
@@ -30,6 +27,14 @@ User stories
 -	As a user I want to be able to find the social channels of the company. 
 
 ### 3 Structure 
+The structure will have a linear narrative so that it is easy for the user to 
+use the website from the start, and this is important so that it will not be
+confusing for someone who visits the website for the first time to find the 
+information that they need. The most important content will be presented first
+on the webpage, that the company sells vegan oat-based ice cream and then moving 
+down the structure more specific content about the company, flavors, locations 
+and at the end a contact form for the customers who wants to contact the company 
+will be presented. 
 
 ### 4 Skeleton
 
