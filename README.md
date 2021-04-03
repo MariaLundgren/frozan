@@ -12,17 +12,24 @@ the site is B2C there will be large images and illustrations on the website and 
 feel overloaded with content for the users.
 
 ### 2 Scope
- Site owners’ goal: To create an online presence and inform about the company, the product, and location.
+Site owners’ goal: To create an online presence and inform about the company, the product, and location.
 
-User goals: Get information about the company, the product and where the ice cream shops are available. 
+User goals: Get information about the company, the product and where the ice cream shops are available.
+
+To prioritize between what would be included on this website I first wrote down ideas of what 
+could be included and then I made an Importance and Viability/feasibility chart to determine what ideas to 
+include in this version and what could be potential features for the future. The ideas in the grey box are 
+the one that will be included in this version and the other could be included in future versions. The user
+stories were written based on the ideas that are in the grey box in the chart. 
+- Importance and Viability/feasibility chart
 
 User stories 
 -	As a user I want to get information about the company.
--	As a user I want to get information about the product the company is selling. 
+-	As a user I want to get information about the ice cream product the company is selling. 
+-   As a user I want to know what flavours of the ice cream the company offers. 
 -	As a user I want to be able to contact the company with questions and feedback. 
 -	As a user I want to know where the ice cream shops are located. 
--   As a user I want to see on where the map the ice cream shops are located.
--	As a user I want to know the opening hours of the ice cream shops. 
+-   As a user I want to see on where the map the ice cream shops are located. 
 -	As a user I want to be able to find the social channels of the company. 
 
 ### 3 Structure 
@@ -31,7 +38,7 @@ use the website from the start, and this is important so that it will not be
 confusing for someone who visits the website for the first time to find the 
 information that they need. The most important content will be presented first
 on the webpage and content to get the user interested, then moving down the 
-website more specific information will be presented.  
+website more specific information will be presented.
 
 ### 4 Skeleton
 That the company sells vegan oat-based ice cream will be the first thing 
@@ -81,8 +88,9 @@ the company on diffent platforms and the conpany logo.
 - About us
     - The about us section will contain a short text about the company and 
     a image. 
-- Our flavours
-    - The flavours section will contain all the different flavours of icecream
+- The ice cream
+    - The ice cream section will contain a short text about the icecream with
+    a image next to it and beneath all the different flavours of icecream
     that the company offers. 
 - Our Location 
     - The location section will contain three buttons with the cities that the
