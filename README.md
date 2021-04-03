@@ -66,6 +66,7 @@ icecream and feel fun. The pink color beeing the strongest is used sparsingly
 throug the design to direct attention to sertain elements and the dark grey
 color is used for text to have a good legibility but still be softer than 
 a pure black color for the font.
+![Color palette](assets/images/color-palette.png)
 
 #### Typography 
 Both fonts chosen for this project is found on Google fonts, Quicksand
