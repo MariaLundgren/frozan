@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/*general*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+nav {
+    background-color: #FAF3DD;
+    height: 4rem;
+}
+
+.navbar {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.nav-item {
+    color: #5E6472;
+    font-family: "Open-sans", sans-serif;
+}
+
+.nav-item:hover {
+    color: #323438; 
+}
