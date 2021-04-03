@@ -54,9 +54,9 @@ on the website.
 
 Figma were used to create the wireframes that are linked below.
 
-- Desktop 
-- Tablet 
-- Mobile
+- [Desktop](wireframes/desktop-wireframe.pdf) 
+- [Tablet](wireframes/tablet-wireframe.pdf)
+- [Mobile](wireframes/mobile-wireframe.pdf)
 
 ### 5 Surface
 
