@@ -118,6 +118,10 @@ nav {
 
 /* Contact */ 
 
+.contact {
+    margin-top: 10rem;
+}
+
 label {
     color: #5E6472;
 }
