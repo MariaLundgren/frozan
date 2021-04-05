@@ -112,3 +112,22 @@ label {
     font-family: "Open-sans", sans-serif;
     font-weight: 600;
 }
+
+/* Footer */ 
+
+footer {
+    height: 10rem;
+    background-color: #FAF3DD;
+    margin-top: 10rem;
+}
+
+.footer-logo {
+    padding-top: 2rem;
+} 
+
+.social {
+    color: #5E6472;
+    font-size: 50px;
+    padding: 2rem 1rem 0 1rem;
+}
+
