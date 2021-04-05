@@ -32,3 +32,22 @@ nav {
     width: 7rem;
     height: auto;
 }
+
+/* hero*/ 
+
+.hero-container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10rem;
+}
+
+.hero-img {
+    position: absolute;
+    max-height: 120%;
+    min-width: auto;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
