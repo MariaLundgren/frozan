@@ -12,7 +12,7 @@
     height: auto;
 }
 
-h2, p {
+h2, p, label {
     color: #5E6472;
     font-family: "Open-sans", sans-serif;
 }
@@ -98,4 +98,17 @@ nav {
 
 .ice-cream-text {
     margin: auto;
+}
+
+/* Contact */ 
+
+label {
+    color: #5E6472;
+}
+
+.form-button {
+    background-color: #FFA69E;
+    color: #5E6472;
+    font-family: "Open-sans", sans-serif;
+    font-weight: 600;
 }
