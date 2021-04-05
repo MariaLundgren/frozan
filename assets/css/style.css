@@ -24,11 +24,6 @@ nav {
     height: 4rem;
 }
 
-.navbar {
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
-
 .nav-item {
     color: #5E6472;
     font-family: "Open-sans", sans-serif;
