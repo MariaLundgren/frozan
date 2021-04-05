@@ -27,3 +27,8 @@ nav {
 .nav-item:hover {
     color: #323438; 
 }
+
+.logo {
+    width: 7rem;
+    height: auto;
+}
