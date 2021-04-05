@@ -100,6 +100,16 @@ nav {
     margin: auto;
 }
 
+/* Our flavours */
+
+.our-flavours {
+    margin-top: 10rem;
+}
+
+.flavours-heading {
+    margin-bottom: 2rem;
+}
+
 /* Contact */ 
 
 label {
