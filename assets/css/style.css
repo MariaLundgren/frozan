@@ -108,6 +108,12 @@ nav {
 
 .flavours-heading {
     margin-bottom: 2rem;
+}   
+
+.flavour-item {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1rem;
 }
 
 /* Contact */ 
