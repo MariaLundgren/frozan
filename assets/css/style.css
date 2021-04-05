@@ -7,6 +7,16 @@
     padding: 0;
 }
 
+.logo {
+    width: 7rem;
+    height: auto;
+}
+
+h2, p {
+    color: #5E6472;
+    font-family: "Open-sans", sans-serif;
+}
+
 /*navbar*/
 
 nav {
@@ -28,11 +38,6 @@ nav {
     color: #323438; 
 }
 
-.logo {
-    width: 7rem;
-    height: auto;
-}
-
 /* hero*/ 
 
 .hero-container {
@@ -49,5 +54,31 @@ nav {
     min-width: auto;
     left: 50%;
     top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+/* About us*/
+
+.about-us {
+    margin-top: 10rem;
+}
+
+.about-us-text {
+    margin: auto;
+}
+
+.about-us-container {
+    background-color: #AED9E0;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-img {
+    position: absolute;
+    height: 105%;
+    width: auto;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
