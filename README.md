@@ -118,6 +118,9 @@ the company on diffent platforms and the conpany logo.
 
 ### Bugs
 
+- When using d-flex on the logo in the footer to get it to be aligned to the left on desktop but in the center 
+on smaller screen sizes the image loses it integrity and get stetched out. 
+
 ## Deployment
 
 ### Deploy 
