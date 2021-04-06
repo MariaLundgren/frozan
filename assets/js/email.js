@@ -1,3 +1,4 @@
+
 // section taken from code institute lessons on emailj js and customized to my project 
 function sendMail(contactForm) {
     emailjs.send("service_nj2gh0e", "frozan", {
