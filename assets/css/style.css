@@ -130,6 +130,11 @@ nav {
     margin-bottom: 2rem;
 }
 
+#map {
+    width: 100%;
+    height: 500px;
+}
+
 /* Contact */ 
 
 .contact {
