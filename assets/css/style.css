@@ -127,12 +127,21 @@ nav {
     border: 2px;
     border-color: #5E6472;
     border-style: solid;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #map {
     width: 100%;
     height: 500px;
+}
+
+.opening-hours-text {
+    margin: auto;
+}
+
+.opening-hours-text p {
+    font-size: 18px;
+    line-height: 50px;
 }
 
 /* Contact */ 
