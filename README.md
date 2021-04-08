@@ -123,6 +123,7 @@ on smaller screen sizes the image loses it integrity and get stetched out. I fix
 the logo don't change size when the sreen does but stay at the same size all the time. I read a bit about this problem and it seem that you have to give an image a set size if you but it in a flex container to not stretch to cover the containers width.
 - The bootstrap class sticky-top didn't work on the navbar. I read on stack overflow that this colud be a problem if you hav the navbar in a div or section instead of nav but since i didn't have that I couldnt find a reason for this. To fix this I implemented the fixed position to the navbar in my css document
 instead to make the navbar sticky.
+- My google maps map was loading but i got an error message in devtools saying that the initMap() wasn't a function. I found another person that seemd to have a similar problem it was suggested that he take away the async from the script loading the api because it made a problem with the callback function. But then I got another error message saying that google was not defined wich I solved by using the window onload event to make it wait until the whole page was loaded. 
 ## Deployment
 
 ### Deploy 
