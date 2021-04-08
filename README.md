@@ -119,7 +119,8 @@ the company on diffent platforms and the conpany logo.
 ### Bugs
 
 - When using d-flex on the logo in the footer to get it to be aligned to the left on desktop but in the center 
-on smaller screen sizes the image loses it integrity and get stetched out. 
+on smaller screen sizes the image loses it integrity and get stetched out. I fixed this by setting a fixed height to the logo in the footer and the widt to auto so that 
+the logo don't change size when the sreen does but stay at the same size all the time. 
 - The bootstrap class sticky-top didn't work on the navbar and I couldnt find a reason to this so implemented the fixed position to the navbar in my css document
 instead to make the navbar sticky. 
 ## Deployment
