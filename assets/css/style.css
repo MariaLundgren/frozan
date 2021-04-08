@@ -98,6 +98,15 @@ nav {
     overflow: hidden;
 }
 
+.ice-cream-image {
+    position: absolute;
+    height: 105%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .ice-cream-text {
     margin: auto;
 }
