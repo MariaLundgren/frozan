@@ -78,9 +78,9 @@ nav {
 
 .about-us-img {
     position: absolute;
-    height: 105%;
+    height: 190%;
     width: auto;
-    left: 50%;
+    left: 57%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
