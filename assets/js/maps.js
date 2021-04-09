@@ -12,15 +12,38 @@ function initMap() {
 
     const map = new google.maps.Map(document.getElementById("map"), mapLocation);
 
-    myMarkers = [
-        {lat: 59.33179, lng:18.04498},
-        {lat: 57.70338, lng:11.97268},
-        {lat: 55.60681, lng: 13.00025},
+    const myMarkers = [
+        {
+            lat: 59.33179, lng: 18.04498,
+            "title": "frozan Stockholm",
+            "adress": "Scheelegatan 24, 112 28 Stockholm",
+        },
+        {
+            lat: 57.70338, lng: 11.97268,
+            "title": "frosan Göteborg",
+            "adress": "Gamla Allén 2, 411 06 Göteborg"
+        },
+        {
+            lat: 55.60681, lng: 13.00025,
+            "title": "frozan Malmö",
+            "adress":"Stortorget 3, 211 22 Malmö"
+        }
     ];
 
     for(let i=0; i < myMarkers.length; i++) {
-        const markers = new google.maps.Marker({position: myMarkers[i]}); 
-        markers.setMap(map);
+        const markers = new google.maps.Marker({
+        position: new google.maps.LatLng(myMarkers[i], myMarkers[i]),
+        map: map,
+        title: myMarkers[i].title,
+    });
+
+    const infoWindow = new google.maps.InfoWindow({
+        content: myMarkers[i].adress,
+    });
+
+    markers.addListener("click", function() {
+        infoWindow.open(map, markers);
+    });
     }
 
     // change to the different cities when pressing the buttons
