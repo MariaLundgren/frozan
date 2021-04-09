@@ -11,7 +11,7 @@ function initMap() {
         };
 
     const map = new google.maps.Map(document.getElementById("map"), mapLocation);
-
+    
     const myMarkers = [
         {
             lat: 59.33179, lng: 18.04498,
@@ -30,11 +30,14 @@ function initMap() {
         }
     ];
 
+    const icon = "/assets/images/ice-cream-marker.png"
+
     for(let i=0; i < myMarkers.length; i++) {
         const markers = new google.maps.Marker({
         position: new google.maps.LatLng(myMarkers[i], myMarkers[i]),
         map: map,
         title: myMarkers[i].title,
+        icon, 
     });
 
     const infoWindow = new google.maps.InfoWindow({
