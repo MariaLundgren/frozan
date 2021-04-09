@@ -30,7 +30,7 @@ function initMap() {
         }
     ];
 
-    const icon = "/assets/images/ice-cream-marker.png"
+    const icon = "assets/images/ice-cream-marker.png"
 
     for(let i=0; i < myMarkers.length; i++) {
         const markers = new google.maps.Marker({
