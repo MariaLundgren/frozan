@@ -104,10 +104,10 @@ nav {
 
 .ice-cream-image {
     position: absolute;
-    height: 90%;
+    height: 100%;
     width: auto;
     left: 50%;
-    top: 55%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
