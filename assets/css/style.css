@@ -115,13 +115,13 @@ nav {
     margin: auto;
 }
 
-#iceCreamText {
+.iceCreamText {
     opacity: 0;
     transform: scale(0.1); 
     transition: 1s all ease-in;
 }
 
-.active {
+.animation {
     opacity: 1;
     transform: scale(1);
 }

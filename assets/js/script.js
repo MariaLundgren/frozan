@@ -1,5 +1,7 @@
 //get the elements I want to add animations to
-const iceCreamText = document.getElementById("iceCreamText");
+const iceCreamText = document.querySelector(".iceCreamText");
+
+
 
 //function to animate the text
 function fadeIn(){
@@ -9,7 +11,7 @@ function fadeIn(){
     let scrolled = window.pageYOffset;
     // if scrolled is larger or equal to text position add active class
     if (scrolled >= textPosition) {
-        iceCreamText.classList.add("active");
+        iceCreamText.classList.add("animation");
     }
 };
 
