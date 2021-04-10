@@ -146,7 +146,14 @@ nav {
 .flavour-item {
     width: 100px;
     height: 100px;
-    padding-bottom: 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.flavour-img {
+    position: absolute;
+    object-fit: contain;
+    height: 100%;
 }
 
 /* our locations */ 
