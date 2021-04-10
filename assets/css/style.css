@@ -143,6 +143,11 @@ nav {
     margin-bottom: 2rem;
 }   
 
+.flavours {
+    text-align: center;
+    margin: auto;
+}
+
 .flavour-item {
     width: 100px;
     height: 100px;
@@ -152,8 +157,8 @@ nav {
 
 .flavour-img {
     position: absolute;
-    object-fit: contain;
     height: 100%;
+    align-content: center;
 }
 
 /* our locations */ 
