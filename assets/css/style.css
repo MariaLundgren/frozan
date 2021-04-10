@@ -56,8 +56,8 @@ nav {
 
 .hero-img {
     position: absolute;
-    max-height: 150%;
-    min-width: auto;
+    height: auto;
+    width: 100%;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
