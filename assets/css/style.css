@@ -82,10 +82,10 @@ nav {
 
 .about-us-img {
     position: absolute;
-    height: 110%;
-    width: auto;
+    height: auto;
+    width: 100%;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
 }
 
