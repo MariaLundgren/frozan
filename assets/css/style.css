@@ -73,6 +73,13 @@ nav {
     margin: auto;
 }
 
+.aboutText {
+    opacity: 0;
+    transform: scale(0.1); 
+    transition: 1s all ease-in;
+}
+
+
 .about-us-container {
     background-color: #AED9E0;
     height: 50vh;
