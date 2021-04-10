@@ -115,6 +115,17 @@ nav {
     margin: auto;
 }
 
+#iceCreamText {
+    opacity: 0;
+    transform: scale(0.1); 
+    transition: 1s all ease-in;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
 /* Our flavours */
 
 .our-flavours {
