@@ -19,5 +19,4 @@ function fadeIn(){
     }
 };
 
-
-window.addEventListener("scroll",fadeIn);
+window.addEventListener("scroll",fadeIn)
