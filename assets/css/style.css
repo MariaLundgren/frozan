@@ -146,16 +146,20 @@ nav {
 }
 
 .flavour-item {
-    width: 100px;
-    height: 100px;
-    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .flavour-img {
-    position: absolute;
-    height: 100%;
-    align-content: center;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
 }
 
 /* our locations */ 
