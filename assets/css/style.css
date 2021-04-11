@@ -273,3 +273,11 @@ footer {
     display: none;
     }
 }
+
+/* about us*/
+
+@media(max-width: 720px) {
+    .about-us {
+        margin-top: 5rem;
+    }
+}
