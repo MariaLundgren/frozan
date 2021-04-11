@@ -84,7 +84,7 @@ nav {
 
 .aboutText {
     opacity: 0;
-    transition: 1s all ease-in;
+    transition: 0.5s all ease-in;
 }
 
 
@@ -132,7 +132,7 @@ nav {
 
 .iceCreamText {
     opacity: 0;
-    transition: 1s all ease-in;
+    transition: 0.5s all ease-in;
 }
 
 .animation {
