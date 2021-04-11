@@ -9,7 +9,7 @@ function fadeIn(){
     let textPosition1 = aboutText.getBoundingClientRect().y;
     let textPosition2 = iceCreamText.getBoundingClientRect().y;
     // set how far we scrolled on page 
-    let scrolled = window.pageYOffset / 1.2;
+    let scrolled = window.pageYOffset;
     // if scrolled is larger or equal to text position add active class
     if (scrolled >= textPosition1) {
         aboutText.classList.add("animation");

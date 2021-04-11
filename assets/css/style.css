@@ -75,7 +75,6 @@ nav {
 
 .aboutText {
     opacity: 0;
-    transform: scale(0.1); 
     transition: 1s all ease-in;
 }
 
@@ -124,13 +123,11 @@ nav {
 
 .iceCreamText {
     opacity: 0;
-    transform: scale(0.1); 
     transition: 1s all ease-in;
 }
 
 .animation {
     opacity: 1;
-    transform: scale(1);
 }
 
 /* Our flavours */
