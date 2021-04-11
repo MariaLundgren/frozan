@@ -21,4 +21,3 @@ function fadeIn(){
 
 
 window.addEventListener("scroll",fadeIn);
-

@@ -16,7 +16,7 @@ html {
     height: auto;
 }
 
-h2, h3, p, label {
+h1, h2, h3, p, label {
     color: #5E6472;
     font-family: "Open-sans", sans-serif;
 }
@@ -239,6 +239,16 @@ footer {
     color: #5E6472;
     font-size: 50px;
     padding: 2rem 1rem 0 1rem;
+}
+
+/*404 page*/
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Media queries */ 
