@@ -10,7 +10,7 @@ function sendMail(contactForm) {
         function(response) {
             console.log("success", response);
             document.getElementById("sent").innerHTML = `
-            <p>Thank you for your message! We usually reply within 48 hours on weekdays.</p>`;
+            Thank you for your message! We usually respond within 48 hours on weekdays.`;
             document.getElementById("myForm").reset();
         }, 
         function(error) {
