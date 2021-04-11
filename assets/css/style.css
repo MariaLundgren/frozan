@@ -63,6 +63,15 @@ nav {
     transform: translate(-50%, -50%);
 }
 
+.hero-small {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
 /* About us*/
 
 .about-us {
@@ -239,5 +248,28 @@ footer {
         height: 50px;
         font-size: 70%;
         text-align: center;
+    }
+}
+
+/*heroimage*/
+@media (max-width: 720px) {
+    .hero-container {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5rem;
+    }
+} 
+
+@media(max-width: 720px) {
+    .hero-img {
+    display: none;
+    }
+}
+
+@media(min-width: 720px) {
+    .hero-small {
+    display: none;
     }
 }
