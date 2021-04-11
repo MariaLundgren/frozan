@@ -243,11 +243,11 @@ footer {
 
 /*404 page*/
 
-div{
+.page-404 {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
+    margin: auto;
     transform: translate(-50%, -50%);
 }
 
