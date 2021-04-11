@@ -1,5 +1,11 @@
 # frozan 
 
+[Link to the website](https://marialundgren.github.io/frozan/)
+
+This website is created for an ice cream company called frozan. The purpose of the website is to create an online presence for the company to have a space 
+where customers can get information about the comany and the product, see where the shops are located and be able to contact the company if they want to.
+The company and project are fictional and only created for educational purpose. 
+
 ## UX
 Below the structure and how the website is planed will be presented using the five scopes of UX.
 
