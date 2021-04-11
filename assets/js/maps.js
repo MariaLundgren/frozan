@@ -30,14 +30,14 @@ function initMap() {
         }
     ];
 
-    const icon = "assets/images/ice-cream-marker.png"
+    const icon = "assets/images/marker.png"
 
     for(let i=0; i < myMarkers.length; i++) {
         const markers = new google.maps.Marker({
         position: new google.maps.LatLng(myMarkers[i], myMarkers[i]),
         map: map,
         title: myMarkers[i].title,
-        icon, 
+        icon,
     });
 
     const infoWindow = new google.maps.InfoWindow({

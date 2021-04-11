@@ -1,9 +1,7 @@
+
 //get the elements I want to add animations to
 const iceCreamText = document.querySelector(".iceCreamText");
 const aboutText = document.querySelector(".aboutText");
-
-
-
 
 //function to animate the text
 function fadeIn(){
