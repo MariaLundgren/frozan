@@ -1,4 +1,5 @@
-// this section is made from Eamonn Smyths document "How to google maps" found on code institutes slack channel and then I have added my own code to make it sutible for my project
+// this section down to the buttons that change locations is made from Cone Institutes video lessons on Google Maps API and 
+// Eamonn Smyths document "How to google maps" found on code institutes slack channel and custonized it to make it suit my project
 
 function initMap() {
     window.onload = (event) => {
