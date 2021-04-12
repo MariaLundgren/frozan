@@ -29,15 +29,6 @@ const myMarkers = [
 
 const icon = "assets/images/marker.png"
 
-const goteborgMap = document.getElementById("goteborgMap");
-
-const malmoMap = document.getElementById("malmoMap");
-
-const stockholmMap = document.getElementById("stockholmMap");
-
-
-
-
 
 function initMap() {
     window.onload = (event) => {
@@ -61,18 +52,22 @@ function initMap() {
     });
     }
 
-    // change to the different cities when pressing the buttons
+    function initialiseCityMap() {
+        document.getElementById("malmoMap").addEventListener("click", function(event) {
+            map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
+        }); 
+        document.getElementById("goteborgMap").addEventListener("click", function(event) {
+            map.setCenter(new google.maps.LatLng(57.70338, 11.97268));
+        });
+        document.getElementById("stockholmMap").addEventListener("click", function(event) {
+            map.setCenter(new google.maps.LatLng(59.33179, 18.04498));
+        });      
+    }
 
-    goteborgMap.addEventListener("click", function(event) {
-        map.setCenter(new google.maps.LatLng(57.70338, 11.97268));
-    });
-
-    malmoMap.addEventListener("click", function(event) {
-        map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
-    });
-
-    stockholmMap.addEventListener("click", function(event) {
-        map.setCenter(new google.maps.LatLng(59.33179, 18.04498));
-    });
+    initialiseCityMap("malmoMap",55.60681, 13.00025)
+    initialiseCityMap("goteborgMap",55.60681, 13.00025)
+    initialiseCityMap("stockholmMap",55.60681, 13.00025)
+    
+   
 };
 }
