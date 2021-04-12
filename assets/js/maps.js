@@ -1,6 +1,8 @@
 // this section down to the buttons that change locations is made from Cone Institutes video lessons on Google Maps API and 
 // Eamonn Smyths document "How to google maps" found on code institutes slack channel and custonized it to make it suit my project
 
+var map; 
+
 const mapLocation = {
     zoom: 15,
     center: {
@@ -33,7 +35,7 @@ const icon = "assets/images/marker.png"
 function initMap() {
     window.onload = (event) => {
 
-        const map = new google.maps.Map(document.getElementById("map"), mapLocation);
+    map = new google.maps.Map(document.getElementById("map"), mapLocation);
     
     for(let i=0; i < myMarkers.length; i++) {
         const markers = new google.maps.Marker({
