@@ -110,6 +110,19 @@ the company on diffent platforms and the conpany logo.
 
 ## Technologies Used
 
+- HTML5 was used to make the structure of the website.
+- CSS used to add style to the project. 
+- Javascript was used to make the website interactive. 
+- Bootstrap was used to style sertain elements and to make tha website responsive. 
+- Font Awesome was used for the icons in the footer. 
+- Google Fonts was used to import the font Open Sans used in the project. 
+- Gitpod was used to develop the project. 
+- Github used to store the project. 
+- Figma was used to make wireframes for the project. 
+- TinyJPG was used to compress images. 
+- Photoshop was used to edit som of the images used in the project. 
+- Illustrator was used to make som of the components used in the project. 
+
 ## Testing
 
 ### Validation
