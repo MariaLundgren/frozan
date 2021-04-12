@@ -15,4 +15,8 @@ function fadeIn(){
     }
 };
 
-    window.addEventListener("scroll",fadeIn)
+
+
+window.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("scroll",fadeIn)
+});
