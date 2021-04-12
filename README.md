@@ -147,6 +147,23 @@ instead to make the navbar sticky.
 
 ### Deploy 
 
+#### Deploy 
+1. Log in to your github account. 
+2. Find the repository you want and click on it. 
+3. In the toolbar click on settings. 
+4. In the menu to the left click on Pages. 
+5. Select the branch master and click on save. 
+6. The link is now avalible in the high-lighted green area on GitHub Pages. 
+7. When clicking on the link you will access the website. 
+
+#### Run code locally 
+1. Find the respository you want and click on it. 
+2. Abouve all the files in the repository click on the green gitpod button. 
+3. This opens a new copy of the workspace on gitpod. You should only do this once and then you can access the workspace directly from gitpod. 
+If you press the green gitpod button again it will create a new copy of the workspace on gitpod. 
+4. You can now edit the workspace locally. 
+5. If you want to open a prewiev window of the workspace in the browser you can type in the command: python3 -m http.server in the terminal and then click open browser in the pop-up window down to the right. 
+
 ### Run code locally 
 
 ## Credits 
