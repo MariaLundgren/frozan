@@ -129,6 +129,19 @@ the company on diffent platforms and the conpany logo.
 
 ### Features 
 
+#### Navbar 
+
+Manual testing of the navbar.
+- Clicking on the logo scolls the page back up to the start of the page. 
+- Clicking on the home link scrolls the page back up to the start of the page. 
+- Clicking on the about us link scrolls the page to the about us section. 
+- Clicking on the the ice cream link scrolls the page to the ice cream section. 
+- Clicking on the locations link scrolls the page to the our locations section. 
+- Clicking on the contact link scrolls the page to the contact section. 
+- Hovering over the links to make sure they become darker when hovering over them. 
+- Scrolling down the page to make sure the navbar stays at the top of the browser window. 
+
+
 ### Responsiveness
 
 ### Browsers
