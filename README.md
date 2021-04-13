@@ -157,6 +157,9 @@ Manual testing of the footer.
 -	As a user I want to get information about the company.
     - In the about us section it is a section the user can read to get information about the company. 
 
+Manual testing of about us. 
+- Scrolling down to this section to make sure the text fades in when scrolling to it. 
+
 #### The ice cream 
 
 -	As a user I want to get information about the ice cream product the company is selling. 
