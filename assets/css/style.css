@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+/* this was found on stack overflow to fix the issue with white space on the right side on some mobile screens */
+html,body{
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
