@@ -40,6 +40,12 @@ myMarkers.forEach(function (myMarker) {
         icon: myMarker.icon,
         map:map
     });
+    const infoWindow = new google.maps.InfoWindow({
+        content: myMarker.adress,
+    });
+    marker.addListener("click", function() {
+        infoWindow.open(map, marker);
+    }); 
 });
 }
 
@@ -62,15 +68,6 @@ function initMap() {
     map = new google.maps.Map(document.getElementById("map"), mapLocation);
     
     initiateMarker();
-    
-    /*
-    const infoWindow = new google.maps.InfoWindow({
-        content: myMarker.adress,
-    });
-
-    marker.addListener("click", function() {
-        infoWindow.open(map, marker);
-    }); */
     
     initialiseCityMap("malmoMap",55.60681, 13.00025)
     initialiseCityMap("goteborgMap",55.60681, 13.00025)
