@@ -89,6 +89,7 @@ nav {
 
 .about-us-text {
     margin: auto;
+    max-width: 400px;
 }
 
 .aboutText {
@@ -136,6 +137,7 @@ nav {
 
 .ice-cream-text {
     margin: auto;
+    max-width: 400px;
 }
 
 .iceCreamText {
