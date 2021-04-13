@@ -1,3 +1,12 @@
+const MODAL = document.getElementById("modal-background");
+
+function showSuccessMessage() {
+    MODAL.style.display = "block";
+}
+
+document.getElementById("modal-button").addEventListener("click", function() {
+    MODAL.style.display = "none";
+})
 
 // section taken from code institute lessons on emailj js and customized to my project 
 function sendMail(contactForm) {
@@ -9,9 +18,8 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("success", response);
-            document.getElementById("sent").innerHTML = `
-            Thank you for your message! We usually respond within 48 hours on weekdays.`;
             document.getElementById("myForm").reset();
+            showSuccessMessage();
         }, 
         function(error) {
             console.log("failed", error);
