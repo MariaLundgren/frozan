@@ -141,6 +141,13 @@ Manual testing of the navbar.
 - Hovering over the links to make sure they become darker when hovering over them. 
 - Scrolling down the page to make sure the navbar stays at the top of the browser window. 
 
+#### Footer
+
+Manual testing of the footer. 
+- Clicking on the logo scolls the page back up to the start of the page.
+- Clicking og the Instagram icon and that opens up instagram.com in a new browser window.
+- Clicking og the Facebook icon and that opens up facebook.com in a new browser window.
+- Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 
 ### Responsiveness
 
