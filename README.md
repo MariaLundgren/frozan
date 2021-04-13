@@ -157,7 +157,7 @@ Manual testing of the footer.
 -	As a user I want to get information about the company.
     - In the about us section it is a section the user can read to get information about the company. 
 
-Manual testing of about us. 
+Manual testing of about us text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it. 
 
 #### The ice cream 
@@ -166,6 +166,9 @@ Manual testing of about us.
     - In the ice cream section the user can read a text to get more information about the ice cream product the company sells.
 -   As a user I want to know what flavours of the ice cream the company offers. 
     - In the ice cream section there is also a section that shows all the flavours of ice cream that the company offers. 
+
+Manual testing of the ice cream text animation. 
+- Scrolling down to this section to make sure the text fades in when scrolling to it. 
 
 #### Our locations 
 
