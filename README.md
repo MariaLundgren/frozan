@@ -149,6 +149,20 @@ Manual testing of the footer.
 - Clicking og the Facebook icon and that opens up facebook.com in a new browser window.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 
+#### Our locations 
+
+Manual testing of google map. 
+- When clicking on Göteborg button the map showes the ice cream shop location in Göteborg.
+- When hover in over the marker at the göteborg location the text "frozan Göteborg" shows.
+- When clicking on the marker at the göteborg location it shows the adress for that location.  
+- When clicking on Malmö button the map showes the ice cream shop location in Malmö.
+- When hover in over the marker at the malmö location the text "frozan Malmö" shows. 
+- When clicking on the marker at the malmö location it shows the adress for that location. 
+- When clicking on Stockholm button the map showes the ice cream shop location in Stockholm.
+- When hover in over the marker at the stockholm location the text "frozan Stockholm" shows. 
+- When clicking on the marker at the scockholm location it shows the adress for that location. 
+- Hovering over the buttons to make sure they become darker when hovering over them. 
+
 ### Responsiveness
 
 ### Browsers
