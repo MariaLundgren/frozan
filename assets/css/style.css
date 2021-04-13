@@ -198,6 +198,11 @@ nav {
     margin-bottom: 1rem;
 }
 
+.location-button:hover {
+    color: #323438;
+    background-color: #a4dae2;
+}
+
 #map {
     width: 100%;
     height: 50vh;
