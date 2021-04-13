@@ -299,6 +299,10 @@ footer {
     padding: 2rem 1rem 0 1rem;
 }
 
+.social:hover {
+    color: #323438;
+}
+
 /*404 page*/
 
 .page-404 {
