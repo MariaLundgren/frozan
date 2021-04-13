@@ -152,6 +152,11 @@ Manual testing of the footer.
 - Clicking og the Facebook icon and that opens up facebook.com in a new browser window.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 
+#### About us 
+
+-	As a user I want to get information about the company.
+    - In the about us section it is a section the user can read to get information about the company. 
+
 #### Our locations 
 
 Manual testing of google map. 
