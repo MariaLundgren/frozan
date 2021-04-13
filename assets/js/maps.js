@@ -13,23 +13,36 @@ const mapLocation = {
 
 const myMarkers = [
     {
-        lat: 59.33179, lng: 18.04498,
-        "title": "frozan Stockholm",
-        "adress": "Scheelegatan 24, 112 28 Stockholm",
+        position:{"lat": 59.33179, "lng": 18.04498},
+        title: "frozan Stockholm",
+        adress: "Scheelegatan 24, 112 28 Stockholm",
+        icon: "assets/images/marker.png"
     },
     {
-        lat: 57.70338, lng: 11.97268,
-        "title": "frosan Göteborg",
-        "adress": "Gamla Allén 2, 411 06 Göteborg"
+        position:{"lat": 57.70338, "lng": 11.97268},
+        title: "frosan Göteborg",
+        adress: "Gamla Allén 2, 411 06 Göteborg",
+        icon: "assets/images/marker.png"
     },
     {
-        lat: 55.60681, lng: 13.00025,
-        "title": "frozan Malmö",
-        "adress":"Stortorget 3, 211 22 Malmö"
+        position:{"lat": 55.60681, "lng": 13.00025},
+        title: "frozan Malmö",
+        adress:"Stortorget 3, 211 22 Malmö",
+        icon: "assets/images/marker.png"
     }
 ];
 
-const icon = "assets/images/marker.png"
+function initialiseCityMap(mapId, lat, lng) {
+    document.getElementById("malmoMap").addEventListener("click", function(event) {
+        map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
+    }); 
+    document.getElementById("goteborgMap").addEventListener("click", function(event) {
+        map.setCenter(new google.maps.LatLng(57.70338, 11.97268));
+    });
+    document.getElementById("stockholmMap").addEventListener("click", function(event) {
+        map.setCenter(new google.maps.LatLng(59.33179, 18.04498));
+    });      
+}
 
 
 function initMap() {
@@ -37,39 +50,26 @@ function initMap() {
 
     map = new google.maps.Map(document.getElementById("map"), mapLocation);
     
-    for(let i=0; i < myMarkers.length; i++) {
-        const markers = new google.maps.Marker({
-        position: new google.maps.LatLng(myMarkers[i], myMarkers[i]),
-        map: map,
-        title: myMarkers[i].title,
-        icon,
+    myMarkers.forEach(function (myMarker) {
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(myMarker.position), 
+            title: myMarker.title,
+            icon: myMarker.icon,
+            map:map
+        });
     });
-
-    const infoWindow = new google.maps.InfoWindow({
+    
+    /*const infoWindow = new google.maps.InfoWindow({
         content: myMarkers[i].adress,
     });
 
     markers.addListener("click", function() {
         infoWindow.open(map, markers);
-    });
-    }
-
-    function initialiseCityMap() {
-        document.getElementById("malmoMap").addEventListener("click", function(event) {
-            map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
-        }); 
-        document.getElementById("goteborgMap").addEventListener("click", function(event) {
-            map.setCenter(new google.maps.LatLng(57.70338, 11.97268));
-        });
-        document.getElementById("stockholmMap").addEventListener("click", function(event) {
-            map.setCenter(new google.maps.LatLng(59.33179, 18.04498));
-        });      
-    }
-
+    }); */
+    
     initialiseCityMap("malmoMap",55.60681, 13.00025)
     initialiseCityMap("goteborgMap",55.60681, 13.00025)
     initialiseCityMap("stockholmMap",55.60681, 13.00025)
     
-   
 };
 }
