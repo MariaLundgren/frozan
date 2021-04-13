@@ -178,6 +178,11 @@ Manual testing of google map.
 - When clicking on the marker at the scockholm location it shows the adress for that location. 
 - Hovering over the buttons to make sure they become darker when hovering over them. 
 
+#### Contact 
+
+-	As a user I want to be able to contact the company with questions and feedback. 
+    - In the contact section the user can fill out a contact form for any questions or feedback that the user have for the company. 
+
 ### Responsiveness
 
 ### Browsers
