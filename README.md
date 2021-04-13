@@ -143,6 +143,9 @@ Manual testing of the navbar.
 
 #### Footer
 
+-	As a user I want to be able to find the social channels of the company. 
+    - In the footer there are icons that links to social media if the user wants to connect with the gym there. 
+
 Manual testing of the footer. 
 - Clicking on the logo scolls the page back up to the start of the page.
 - Clicking og the Instagram icon and that opens up instagram.com in a new browser window.
