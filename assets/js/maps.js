@@ -32,6 +32,17 @@ const myMarkers = [
     }
 ];
 
+function initiateMarker () {
+myMarkers.forEach(function (myMarker) {
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(myMarker.position), 
+        title: myMarker.title,
+        icon: myMarker.icon,
+        map:map
+    });
+});
+}
+
 function initialiseCityMap(mapId, lat, lng) {
     document.getElementById("malmoMap").addEventListener("click", function(event) {
         map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
@@ -50,21 +61,15 @@ function initMap() {
 
     map = new google.maps.Map(document.getElementById("map"), mapLocation);
     
-    myMarkers.forEach(function (myMarker) {
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(myMarker.position), 
-            title: myMarker.title,
-            icon: myMarker.icon,
-            map:map
-        });
-    });
+    initiateMarker();
     
-    /*const infoWindow = new google.maps.InfoWindow({
-        content: myMarkers[i].adress,
+    /*
+    const infoWindow = new google.maps.InfoWindow({
+        content: myMarker.adress,
     });
 
-    markers.addListener("click", function() {
-        infoWindow.open(map, markers);
+    marker.addListener("click", function() {
+        infoWindow.open(map, marker);
     }); */
     
     initialiseCityMap("malmoMap",55.60681, 13.00025)
