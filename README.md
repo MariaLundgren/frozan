@@ -151,6 +151,7 @@ Manual testing of the footer.
 - Clicking og the Instagram icon and that opens up instagram.com in a new browser window.
 - Clicking og the Facebook icon and that opens up facebook.com in a new browser window.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
+- Hovering over the social icons to make sure they become darker when hovering over them. 
 
 #### About us 
 
