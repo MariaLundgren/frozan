@@ -111,18 +111,18 @@ the company on diffent platforms and the conpany logo.
 
 ## Technologies Used
 
-- HTML5 was used to make the structure of the website.
-- CSS used to add style to the project. 
-- Javascript was used to make the website interactive. 
-- Bootstrap was used to style sertain elements and to make tha website responsive. 
-- Font Awesome was used for the icons in the footer. 
-- Google Fonts was used to import the font Open Sans used in the project. 
-- Gitpod was used to develop the project. 
-- Github used to store the project. 
-- Figma was used to make wireframes for the project. 
-- TinyJPG was used to compress images. 
-- Photoshop was used to edit som of the images used in the project. 
-- Illustrator was used to make som of the components used in the project. 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to make the structure of the website.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used to add style to the project. 
+- [Javascript]() was used to make the website interactive. 
+- [Bootstrap](https://getbootstrap.com/) was used to style sertain elements and to make tha website responsive. 
+- [Font Awesome](https://fontawesome.com/) was used for the icons in the footer. 
+- [Google Fonts](https://fonts.google.com/) was used to import the font Open Sans used in the project. 
+- [Gitpod](https://www.gitpod.io/) was used to develop the project. 
+- [Github](https://github.com/) used to store the project. 
+- [Figma](https://www.figma.com/) was used to make wireframes for the project. 
+- [TinyJPG](https://tinyjpg.com/) was used to compress images. 
+- [Photoshop](https://www.adobe.com/products/photoshop.html) was used to edit som of the images used in the project. 
+- [Illustrator](https://www.adobe.com/products/illustrator.html) was used to make some of the components used in the project. 
 
 ## Testing
 
