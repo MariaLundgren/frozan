@@ -146,6 +146,8 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the links to make sure they become darker when hovering over them. 
 - Scrolling down the page to make sure the navbar stays at the top of the browser window. 
 
+![print screen of home section with navbar](assets/images/home-section.jpg)
+
 #### Footer
 
 ##### User stories testing
