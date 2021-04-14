@@ -51,7 +51,8 @@ nav {
 
 .navbar-nav {
     background-color: #FAF3DD;
-
+    width: 30vw;
+    padding-left: 5px;
 }
 
 /* hero*/ 
