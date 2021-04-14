@@ -174,6 +174,13 @@ Manual testing of the ice cream text animation.
 
 #### Our locations 
 
+-   As a user I want to know the opening hours of the ice cream shops. 
+    - Next to the map in the our locations section the user can see the opening hours of the ice cream shops.
+-	As a user I want to know where the ice cream shops are located. 
+    - If the user clicks on the marker at the google maps the adress of that ice cream shop appears on the map. 
+-   As a user I want to see on where the map the ice cream shops are located. 
+    - On the google maps in our locations section the user can see where on the map the ice cream shops are located with help from the marker on the map. 
+
 Manual testing of google map. 
 - When clicking on Göteborg button the map showes the ice cream shop location in Göteborg.
 - When hover in over the marker at the göteborg location the text "frozan Göteborg" shows.
