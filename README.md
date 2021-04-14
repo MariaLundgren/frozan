@@ -193,8 +193,6 @@ the company on diffent platforms and the conpany logo.
 -   As a user I want to see on where the map the ice cream shops are located. 
     - On the google maps in our locations section the user can see where on the map the ice cream shops are located with help from the marker on the map. 
 
-    ![print screen of locations section](assets/images/locations-section.jpg)
-
 ##### Manual testing of google map. 
 - When clicking on Göteborg button the map showes the ice cream shop location in Göteborg.
 - When hover in over the marker at the göteborg location the text "frozan Göteborg" shows.
@@ -206,6 +204,8 @@ the company on diffent platforms and the conpany logo.
 - When hover in over the marker at the stockholm location the text "frozan Stockholm" shows. 
 - When clicking on the marker at the scockholm location it shows the adress for that location. 
 - Hovering over the buttons to make sure they become darker when hovering over them. 
+
+    ![print screen of locations section](assets/images/locations-section.jpg)
 
 #### Contact 
 
