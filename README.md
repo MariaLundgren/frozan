@@ -107,7 +107,11 @@ the company on diffent platforms and the conpany logo.
     hours of the ice cream shops. 
 - Contact 
     - The contact section will contain a contact form that users can use if they
-    want to get in contact with the company.
+    want to get in contact with the company. All the fields in the form will be required to 
+    fill for the user to be able to send the contect form. When submitting the form with all 
+    the valid information a model with a thank you message will appear if the submit was sucessfull. 
+    If something is wrong and the for isn't submitted a error messase will appear that promts the user 
+    to try again later.  
 
 ## Technologies Used
 
