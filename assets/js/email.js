@@ -1,6 +1,11 @@
 const MODAL = document.getElementById("modal-background");
 const MODAL_TEXT = document.getElementById("modalText");
 
+
+/**
+ * Shows modal when submitting contact form.
+ * @param {object} The modal object. 
+ */
 function showModal() {
     MODAL.style.display = "block";
 }
@@ -9,6 +14,11 @@ document.getElementById("modal-button").addEventListener("click", function() {
     MODAL.style.display = "none";
 });
 
+/**
+ * Sends email from customers using information from contact form.
+ * @param {object} contactForm containing form data. 
+ * @returns {boolean} Always false to prevent form submission.
+ */
 // section taken from code institute lessons on emailj js and customized to my project 
 function sendMail(contactForm) { 
     emailjs.send("service_nj2gh0e", "frozan", {

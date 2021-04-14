@@ -51,7 +51,7 @@ nav {
 
 .navbar-nav {
     background-color: #FAF3DD;
-    
+
 }
 
 /* hero*/ 
@@ -244,7 +244,6 @@ label {
 }
 
 #modal-background {
-    display: none;
     position: fixed;
     left: 0;
     top: 0;
@@ -252,8 +251,9 @@ label {
     width: 100vw;
     background-color: rgba(0,0,0,0.3);
     z-index: 1;
-    animation-duration: 0.5s;
+    display: none;
 }
+
 
 #modal {
     position: fixed; 
