@@ -242,6 +242,23 @@ In Mozilla Firefox DevTools these devices are tested for responsiveness:
 
 ### Browsers
 
+The webpage is tested in following browswers: 
+
+- Google Chrome
+- Mozilla Firefox 
+- Microsoft Edge
+- Safari 
+- Opera 
+
+Not supported browsers: 
+
+- Internet Explorer
+
+Comments: 
+
+- The navigation works in Safari however the smooth scroll effect is not supported by Safari so that don't work in this browsers. 
+
+
 ### Performance with lighthouse
 
 ### Bugs
