@@ -34,6 +34,7 @@ nav {
 .nav-item {
     color: #5E6472;
     font-family: "Open-sans", sans-serif;
+    white-space: nowrap;
 }
 
 .nav-item:hover {
