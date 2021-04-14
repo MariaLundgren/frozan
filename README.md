@@ -178,6 +178,8 @@ the company on diffent platforms and the conpany logo.
 -   As a user I want to know what flavours of the ice cream the company offers. 
     - In the ice cream section there is also a section that shows all the flavours of ice cream that the company offers. 
 
+    ![print screen of flavours section](assets/images/flavours-section.jpg)
+
 ##### Manual testing of the ice cream text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it. 
 
