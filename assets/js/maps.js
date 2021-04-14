@@ -43,9 +43,11 @@ myMarkers.forEach(function (myMarker) {
         icon: myMarker.icon,
         map:map
     });
+    // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
     const infoWindow = new google.maps.InfoWindow({
         content: myMarker.adress,
     });
+    // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
     marker.addListener("click", function() {
         infoWindow.open(map, marker);
     }); 
