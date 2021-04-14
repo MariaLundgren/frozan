@@ -34,6 +34,7 @@ User stories
 -	As a user I want to get information about the ice cream product the company is selling. 
 -   As a user I want to know what flavours of the ice cream the company offers. 
 -	As a user I want to be able to contact the company with questions and feedback. 
+-   As a user I want to know the opening hours of the ice cream shops. 
 -	As a user I want to know where the ice cream shops are located. 
 -   As a user I want to see on where the map the ice cream shops are located. 
 -	As a user I want to be able to find the social channels of the company. 
