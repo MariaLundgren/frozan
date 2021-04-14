@@ -1,26 +1,23 @@
 /**
  * Adds the fade in effect when scrolling down the page.
  * @param {}
- * @returns {} 
+ * @returns {}
  */
-function fadeIn(){
-  
-    let textPosition1 = document.querySelector(".aboutText").getBoundingClientRect().y;
-    let textPosition2 = document.querySelector(".iceCreamText").getBoundingClientRect().y;
+function fadeIn() {
+  let textPosition1 = document.querySelector(".aboutText").getBoundingClientRect().y;
+  let textPosition2 = document.querySelector(".iceCreamText").getBoundingClientRect().y;
 
-    let scrolled = window.pageYOffset;
+  let scrolled = window.pageYOffset;
 
-    if (scrolled >= textPosition1) {
-        document.querySelector(".aboutText").classList.add("animation");
-    }
+  if (scrolled >= textPosition1) {
+    document.querySelector(".aboutText").classList.add("animation");
+  }
 
-    if (scrolled >= textPosition2) {
-        document.querySelector(".iceCreamText").classList.add("animation");
-    }
-};
-
-
+  if (scrolled >= textPosition2) {
+    document.querySelector(".iceCreamText").classList.add("animation");
+  }
+}
 
 window.addEventListener("DOMContentLoaded", (event) => {
-    window.addEventListener("scroll",fadeIn)
+  window.addEventListener("scroll", fadeIn);
 });
