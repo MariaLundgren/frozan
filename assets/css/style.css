@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 /*general*/ 
-
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +26,6 @@ h1, h2, h3, p, label {
 }
 
 /*navbar*/
-
 nav {
     background-color: #FAF3DD;
     height: 4rem;
@@ -56,7 +54,6 @@ nav {
 }
 
 /* hero*/ 
-
 .hero-container {
     height: 60vh;
     width: 100%;
@@ -84,7 +81,6 @@ nav {
 }
 
 /* About us*/
-
 .about-us {
     margin-top: 10rem;
 }
@@ -98,7 +94,6 @@ nav {
     opacity: 0;
     transition: 0.5s all ease-in;
 }
-
 
 .about-us-container {
     height: 50vh;
@@ -116,7 +111,6 @@ nav {
 }
 
 /* The ice cream */ 
-
 .ice-cream {
     margin-top: 10rem;
 }
@@ -152,7 +146,6 @@ nav {
 }
 
 /* Our flavours */
-
 .our-flavours {
     margin-top: 10rem;
 }
@@ -180,7 +173,6 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-     
 }
 
 /* our locations */ 
@@ -222,7 +214,6 @@ nav {
 }
 
 /* Contact */ 
-
 .contact {
     margin-top: 10rem;
 }
@@ -255,7 +246,6 @@ label {
     display: none;
 }
 
-
 #modal {
     position: fixed; 
     height: 40vh;
@@ -282,7 +272,6 @@ label {
 }
 
 /* Footer */ 
-
 footer {
     height: 10rem;
     background-color: #FAF3DD;
@@ -306,7 +295,6 @@ footer {
 }
 
 /*404 page*/
-
 .page-404 {
     position: absolute;
     top: 50%;
@@ -316,7 +304,6 @@ footer {
 }
 
 /* Media queries */ 
-
 @media (max-width: 540px) {
     .location-button {
         width: 100px;
