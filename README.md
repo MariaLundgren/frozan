@@ -132,7 +132,7 @@ the company on diffent platforms and the conpany logo.
 
 #### Navbar 
 
-Manual testing of the navbar.
+##### Manual testing of the navbar.
 - Clicking on the logo scolls the page back up to the start of the page. 
 - Clicking on the home link scrolls the page back up to the start of the page. 
 - Clicking on the about us link scrolls the page to the about us section. 
@@ -144,10 +144,11 @@ Manual testing of the navbar.
 
 #### Footer
 
+##### User stories testing
 -	As a user I want to be able to find the social channels of the company. 
     - In the footer there are icons that links to social media if the user wants to connect with the gym there. 
 
-Manual testing of the footer. 
+##### Manual testing of the footer. 
 - Clicking on the logo scolls the page back up to the start of the page.
 - Clicking og the Instagram icon and that opens up instagram.com in a new browser window.
 - Clicking og the Facebook icon and that opens up facebook.com in a new browser window.
@@ -156,24 +157,27 @@ Manual testing of the footer.
 
 #### About us 
 
+##### User stories testing
 -	As a user I want to get information about the company.
     - In the about us section it is a section the user can read to get information about the company. 
 
-Manual testing of about us text animation. 
+##### Manual testing of about us text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it. 
 
 #### The ice cream 
 
+##### User stories testing
 -	As a user I want to get information about the ice cream product the company is selling. 
     - In the ice cream section the user can read a text to get more information about the ice cream product the company sells.
 -   As a user I want to know what flavours of the ice cream the company offers. 
     - In the ice cream section there is also a section that shows all the flavours of ice cream that the company offers. 
 
-Manual testing of the ice cream text animation. 
+##### Manual testing of the ice cream text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it. 
 
 #### Our locations 
 
+##### User stories testing
 -   As a user I want to know the opening hours of the ice cream shops. 
     - Next to the map in the our locations section the user can see the opening hours of the ice cream shops.
 -	As a user I want to know where the ice cream shops are located. 
@@ -181,7 +185,7 @@ Manual testing of the ice cream text animation.
 -   As a user I want to see on where the map the ice cream shops are located. 
     - On the google maps in our locations section the user can see where on the map the ice cream shops are located with help from the marker on the map. 
 
-Manual testing of google map. 
+##### Manual testing of google map. 
 - When clicking on Göteborg button the map showes the ice cream shop location in Göteborg.
 - When hover in over the marker at the göteborg location the text "frozan Göteborg" shows.
 - When clicking on the marker at the göteborg location it shows the adress for that location.  
@@ -195,10 +199,11 @@ Manual testing of google map.
 
 #### Contact 
 
+##### User stories testing
 -	As a user I want to be able to contact the company with questions and feedback. 
     - In the contact section the user can fill out a contact form for any questions or feedback that the user have for the company. 
 
-Manual testing of contact form.
+##### Manual testing of contact form.
 - Trying to send in form empty and message appears to fill out required fields.
 - Trying to send in form without a valid email adress and message appears that the email needs to contain a @. 
 - Submitting the form with all required information and a modal with a thank you message appears and the form clears all the fields. 
