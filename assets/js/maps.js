@@ -1,5 +1,3 @@
-// this section down to the buttons that change locations is made from Cone Institutes video lessons on Google Maps API and 
-// Eamonn Smyths document "How to google maps" found on code institutes slack channel and custonized it to make it suit my project
 
 var map; 
 
@@ -32,6 +30,11 @@ const myMarkers = [
     }
 ];
 
+/**
+ * Function to add marker to the map, with a title and a infowindow.
+ * @param {} 
+ * @returns {}
+ */
 function initiateMarker () {
 myMarkers.forEach(function (myMarker) {
     var marker = new google.maps.Marker({
@@ -49,6 +52,11 @@ myMarkers.forEach(function (myMarker) {
 });
 }
 
+/**
+ * Adds a click event listener to a button to change the location of the map. 
+ * @param {}
+ * @returns {}
+ */
 function initialiseCityMap(mapId, lat, lng) {
     document.getElementById("malmoMap").addEventListener("click", function(event) {
         map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
@@ -61,7 +69,11 @@ function initialiseCityMap(mapId, lat, lng) {
     });      
 }
 
-
+/**
+ * Sets the location on the map, also calls the functions to set markers on the map and change locations.
+ * @param {}
+ * @returns {} 
+ */
 function initMap() {
     window.onload = (event) => {
 
