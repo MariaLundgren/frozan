@@ -44,7 +44,7 @@ myMarkers.forEach(function (myMarker) {
         map:map
     });
     // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
-    const infoWindow = new google.maps.InfoWindow({
+    var infoWindow = new google.maps.InfoWindow({
         content: myMarker.adress,
     });
     // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
