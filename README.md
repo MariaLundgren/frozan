@@ -190,6 +190,14 @@ Manual testing of google map.
 -	As a user I want to be able to contact the company with questions and feedback. 
     - In the contact section the user can fill out a contact form for any questions or feedback that the user have for the company. 
 
+Manual testing of contact form.
+- Trying to send in form empty and message appears to fill out required fields.
+- Trying to send in form without a valid email adress and message appears that the email needs to contain a @. 
+- Submitting the form with all required information and a modal with a thank you message appears and the form clears all the fields. 
+- Fill out all required fields in the form, disconnecting from internet and trying to submit and an error message appears that asks me to try again later appears. 
+- Hovering over the submit button to make sure it becomes darker when hovering over it. 
+
+
 ### Responsiveness
 
 ### Browsers
