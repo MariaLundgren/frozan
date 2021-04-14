@@ -301,5 +301,8 @@ If you press the green gitpod button again it will create a new copy of the work
 ### Code 
 
 ### Media 
+- Hero image by [Kenta Kikuchi](https://unsplash.com/@kentas_photography) from [Unsplash](https://unsplash.com/).
+- About us image by [Jonathan Borba](https://unsplash.com/@jonathanborba) from [Unsplash](https://unsplash.com/). 
+- The ice cream image by [Elza Kurbanova](https://unsplash.com/@kurbanova) from [Unsplash](https://unsplash.com/). 
 
 ### Acknowledgements
