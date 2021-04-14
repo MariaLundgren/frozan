@@ -193,6 +193,8 @@ the company on diffent platforms and the conpany logo.
 -   As a user I want to see on where the map the ice cream shops are located. 
     - On the google maps in our locations section the user can see where on the map the ice cream shops are located with help from the marker on the map. 
 
+    ![print screen of locations section](assets/images/locations-section.jpg)
+
 ##### Manual testing of google map. 
 - When clicking on Göteborg button the map showes the ice cream shop location in Göteborg.
 - When hover in over the marker at the göteborg location the text "frozan Göteborg" shows.
@@ -218,6 +220,7 @@ the company on diffent platforms and the conpany logo.
 - Fill out all required fields in the form, disconnecting from internet and trying to submit and an error message appears that asks me to try again later appears. 
 - Hovering over the submit button to make sure it becomes darker when hovering over it. 
 
+    ![print screen of contact section](assets/images/contact-section.jpg)
 
 ### Responsiveness
 
