@@ -83,9 +83,7 @@ function initMap() {
     
     initiateMarker();
     
-    initialiseCityMap("malmoMap",55.60681, 13.00025)
-    initialiseCityMap("goteborgMap",55.60681, 13.00025)
-    initialiseCityMap("stockholmMap",55.60681, 13.00025)
+    initialiseCityMap();
     
 };
 }
