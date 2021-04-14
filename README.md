@@ -213,6 +213,33 @@ the company on diffent platforms and the conpany logo.
 
 ### Responsiveness
 
+The responsiveness is tested using Chrome and Mozilla Firefox DevTools.
+
+In Chrome DevTools these devices are tested for responsiveness: 
+
+- Moto 4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
+
+In Mozilla Firefox DevTools these devices are tested for responsiveness: 
+
+- Galaxy S9/S9+
+- iPad
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X/XS
+- Kindle Fire HDX
+
+
 ### Browsers
 
 ### Performance with lighthouse
