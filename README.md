@@ -1,5 +1,5 @@
 # frozan 
-
+![mock-up of the website](assets/images/mock-up.jpg)
 [Link to the website](https://marialundgren.github.io/frozan/)
 
 This website is created for an ice cream company called frozan. The purpose of the website is to create an online presence for the company to have a space 
