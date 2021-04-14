@@ -305,6 +305,20 @@ If you press the green gitpod button again it will create a new copy of the work
 
 ## Credits 
 
+Most of the code in this project is written by me, however some smaller sections is gotten from others, these are presented below. 
+
+- Bootstrap is used to make the content responsive and to style som elements. 
+- The navbar is taken from bootstrap and custimized to fit my project. 
+- The contact form is taken from bootstrap and custimozed to fit my project. 
+- In the CSS file I used a piece of code at the top to fix a layout problem on smaller screen sizes that i found in
+[this](https://stackoverflow.com/questions/46012482/unwanted-white-space-on-right-side-in-mobile-view/46012924) thread at Stack Overflow. 
+- I used the Email.js documentation to help implement the email.js API. The section taken from the documentation is commented in the code. 
+- The funtion to send email when filling out the contact form is taken from code institutes lesson on Email.js and customized to fit my project.
+The code that i took from this lesson is comented in the regarding place code. 
+- To help implement the Google Maps API I got a lot of help from the google maps API documentation. 
+- To customize the map I also got a lot of help from Eamonn Smyths documet "How to google maps" found in code institutes slack channel. 
+I also took some code from his document and custimozed it to my project, these places are commented in the code. 
+
 ### Code 
 
 ### Media 
