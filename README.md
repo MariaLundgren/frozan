@@ -295,10 +295,12 @@ To test the performance of the webpage Lighthouse in Google DevTools were used.
 
 The lighthouse scores are presented below. 
 
-####Desktop
+#### Desktop
+
 ![Scores from lighthouse desktop](assets/images/lighthouse.jpg)
 
-####Mobile
+#### Mobile
+
 ![scores from lighthouse mobile](assets/images/lighthouse-mobile.jpg)
 
 ### Bugs
