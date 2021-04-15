@@ -146,7 +146,7 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the links to make sure they become darker when hovering over them. 
 - Scrolling down the page to make sure the navbar stays at the top of the browser window. 
 
-![print screen of home section with navbar](assets/images/home-section.jpg)
+![print screen of home section with navbar](assets/images/footer-mobile.jpg)
 
 #### Footer
 
@@ -161,6 +161,8 @@ the company on diffent platforms and the conpany logo.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 - Hovering over the social icons to make sure they become darker when hovering over them. 
 
+![print screen of footer](assets/images/contact-mobile.jpg)
+
 #### About us 
 
 ##### User stories testing
@@ -168,7 +170,9 @@ the company on diffent platforms and the conpany logo.
     - In the about us section it is a section the user can read to get information about the company. 
 
 ##### Manual testing of about us text animation. 
-- Scrolling down to this section to make sure the text fades in when scrolling to it. 
+- Scrolling down to this section to make sure the text fades in when scrolling to it.
+
+![print screen on about us section](assets/images/about-us-mobile.jpg)
 
 #### The ice cream 
 
@@ -178,10 +182,11 @@ the company on diffent platforms and the conpany logo.
 -   As a user I want to know what flavours of the ice cream the company offers. 
     - In the ice cream section there is also a section that shows all the flavours of ice cream that the company offers. 
 
-    ![print screen of flavours section](assets/images/flavours-section.jpg)
-
 ##### Manual testing of the ice cream text animation. 
-- Scrolling down to this section to make sure the text fades in when scrolling to it. 
+- Scrolling down to this section to make sure the text fades in when scrolling to it.
+
+![print screen of the ice cream section](assets/images/the-ice-cream-mobile.jpg)
+![print screen of the flavours section](assets/images/our-flavours-mobile.jpg)
 
 #### Our locations 
 
@@ -205,7 +210,7 @@ the company on diffent platforms and the conpany logo.
 - When clicking on the marker at the scockholm location it shows the adress for that location. 
 - Hovering over the buttons to make sure they become darker when hovering over them. 
 
-    ![print screen of locations section](assets/images/locations-section.jpg)
+    ![print screen of locations section](assets/images/our-locations-mobile.jpg)
 
 #### Contact 
 
@@ -220,7 +225,7 @@ the company on diffent platforms and the conpany logo.
 - Fill out all required fields in the form, disconnecting from internet and trying to submit and an error message appears that asks me to try again later appears. 
 - Hovering over the submit button to make sure it becomes darker when hovering over it. 
 
-    ![print screen of contact section](assets/images/contact-section.jpg)
+    ![print screen of contact section](assets/images/contact-mobile.jpg)
 
 ### Responsiveness
 
