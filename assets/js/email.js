@@ -5,7 +5,7 @@ function showModal() {
   document.getElementById("modal-background").style.display = "block";
 }
 
-document.getElementById("modal-button").addEventListener("click", function () {
+document.getElementById("modal-button").addEventListener("click", function () { 
   document.getElementById("modal-background").style.display = "none";
 });
 

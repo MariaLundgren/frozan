@@ -64,6 +64,9 @@ Figma were used to create the wireframes that are linked below.
 - [Tablet](assets/docs/wireframes/tablet-wireframe.pdf)
 - [Mobile](assets/docs/wireframes/mobile-wireframe.pdf)
 
+#### Changes from the wireframes made in the project 
+In the process I have not followed the wireframes exactly. The changes is mostly in the tablet verision of the project where I have developt the website differently than in the wireframes. In the about us section and the ice cream section i chose to have the pictures and text next to each other like have on the desktop verision on the wireframe rather than having the text above the image as in the wireframe for tablets. The reason for this is that with the chosen images and the length of the text that are placed in these sections I thought that it looked better to have them side by side than teh etxt above the image. 
+
 ### 5 Surface
 
 #### Colors
