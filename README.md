@@ -259,6 +259,9 @@ the company on diffent platforms and the conpany logo.
 - Trying to go to a page that don't excists on my website and I come to the 404 page. 
 - Clicking on the take me back button and I go back to the website again.
 
+![print screen of 404 page](assets/docs/images/404-page-desktop.jpg)
+![print screen of 404 page](assets/docs/images/404-page-desktop.jpg)
+
 ### Responsiveness
 
 The responsiveness is tested using Chrome and Mozilla Firefox DevTools.

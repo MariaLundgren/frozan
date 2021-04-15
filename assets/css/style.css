@@ -302,6 +302,9 @@ footer {
     left: 50%;
     margin: auto;
     transform: translate(-50%, -50%);
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
 }
 
 /* Media queries */ 
