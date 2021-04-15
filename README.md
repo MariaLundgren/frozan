@@ -286,11 +286,10 @@ the logo don't change size when the sreen does but stay at the same size all the
 - The bootstrap class sticky-top didn't work on the navbar. I read on stack overflow that this colud be a problem if you hav the navbar in a div or section instead of nav but since i didn't have that I couldnt find a reason for this. To fix this I implemented the fixed position to the navbar in my css document
 instead to make the navbar sticky.
 - My google maps map was loading but i got an error message in devtools saying that the initMap() wasn't a function. I found another person that seemd to have a similar problem it was suggested that he take away the async from the script loading the api because it made a problem with the callback function. But then I got another error message saying that google was not defined wich I solved by using the window onload event to make it wait until the whole page was loaded. 
+
 ## Deployment
 
 ### Deploy 
-
-#### Deploy 
 1. Log in to your github account. 
 2. Find the repository you want and click on it. 
 3. In the toolbar click on settings. 
@@ -299,7 +298,7 @@ instead to make the navbar sticky.
 6. The link is now avalible in the high-lighted green area on GitHub Pages. 
 7. When clicking on the link you will access the website. 
 
-#### Run code locally 
+### Run code locally 
 1. Find the respository you want and click on it. 
 2. Abouve all the files in the repository click on the green gitpod button. 
 3. This opens a new copy of the workspace on gitpod. You should only do this once and then you can access the workspace directly from gitpod. 
@@ -307,10 +306,9 @@ If you press the green gitpod button again it will create a new copy of the work
 4. You can now edit the workspace locally. 
 5. If you want to open a prewiev window of the workspace in the browser you can type in the command: python3 -m http.server in the terminal and then click open browser in the pop-up window down to the right. 
 
-### Run code locally 
-
 ## Credits 
 
+### Code 
 Most of the code in this project is written by me, however some smaller sections is gotten from others, these are presented below. 
 
 - Bootstrap is used to make the content responsive and to style som elements. 
@@ -325,7 +323,7 @@ The code that i took from this lesson is comented in the regarding place code.
 - To customize the map I also got a lot of help from Eamonn Smyths documet "How to google maps" found in code institutes slack channel. 
 I also took some code from his document and custimozed it to my project, these places are commented in the code. 
 
-### Code 
+
 
 ### Media 
 - Hero image by [Kenta Kikuchi](https://unsplash.com/@kentas_photography) from [Unsplash](https://unsplash.com/).
