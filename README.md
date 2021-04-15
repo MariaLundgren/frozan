@@ -1,5 +1,5 @@
 # frozan 
-![mock-up of the website](assets/images/mock-up.jpg)
+![mock-up of the website](assets/docs/images/mockup.jpg)
 [Link to the website](https://marialundgren.github.io/frozan/)
 
 This website is created for an ice cream company called frozan. The purpose of the website is to create an online presence for the company to have a space 
@@ -26,7 +26,7 @@ To prioritize between what would be included on this website I first wrote down 
 could be included and then I made an Importance and Viability/feasibility chart to determine what ideas to 
 include in this version and what could be potential features for the future. The ideas in the grey box are 
 the one that will be included in this version and the other could be included in future versions. The chart is made based on what was was important to have on the website for now and how much time it would take to do it and how har the ideas would be to implement. The user stories were written based on the ideas that are in the grey box in the chart. 
-- [Importance and Viability/feasibility chart](assets/images/importance-viability-chart.jpg)
+- [Importance and Viability/feasibility chart](assets/docs/images/importance-viability-chart.jpg)
 
 User stories 
 -	As a user I want to get information about the company.
@@ -60,9 +60,9 @@ on the website.
 
 Figma were used to create the wireframes that are linked below.
 
-- [Desktop](wireframes/desktop-wireframe.pdf) 
-- [Tablet](wireframes/tablet-wireframe.pdf)
-- [Mobile](wireframes/mobile-wireframe.pdf)
+- [Desktop](assets/docs/wireframes/desktop-wireframe.pdf) 
+- [Tablet](assets/docs/wireframes/tablet-wireframe.pdf)
+- [Mobile](assets/docs/wireframes/mobile-wireframe.pdf)
 
 ### 5 Surface
 
@@ -72,7 +72,7 @@ icecream and feel fun. The pink color beeing the strongest is used sparsingly
 throug the design to direct attention to sertain elements and the dark grey
 color is used for text to have a good legibility but still be softer than 
 a pure black color for the font.
-![Color palette](assets/images/color-palette.png)
+![Color palette](assets/docs/images/color-palette.png)
 
 #### Typography 
 Both fonts chosen for this project is found on Google fonts, Quicksand
@@ -151,8 +151,8 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the links to make sure they become darker when hovering over them. 
 - Scrolling down the page to make sure the navbar stays at the top of the browser window. 
 
-    ![print screen of home section with navbar](assets/images/home-mobile.jpg)
-    ![print screen of home section with navbar](assets/images/home-desktop.jpg)
+    ![print screen of home section with navbar](assets/docs/images/home-mobile.jpg)
+    ![print screen of home section with navbar](assets/docs/images/home-desktop.jpg)
 
 #### Footer
 
@@ -167,8 +167,8 @@ the company on diffent platforms and the conpany logo.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 - Hovering over the social icons to make sure they become darker when hovering over them. 
 
-    ![print screen of footer section with navbar](assets/images/footer-mobile.jpg)
-    ![print screen of footer section with navbar](assets/images/footer-desktop.jpg)
+    ![print screen of footer section with navbar](assets/docs/images/footer-mobile.jpg)
+    ![print screen of footer section with navbar](assets/docs/images/footer-desktop.jpg)
 
 #### About us 
 
@@ -179,8 +179,8 @@ the company on diffent platforms and the conpany logo.
 ##### Manual testing of about us text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it.
 
-    ![print screen on about us section](assets/images/about-us-mobile.jpg)
-    ![print screen on about us section](assets/images/about-us-desktop.jpg)
+    ![print screen on about us section](assets/docs/images/about-us-mobile.jpg)
+    ![print screen on about us section](assets/docs/images/about-us-desktop.jpg)
 
 #### The ice cream 
 
@@ -193,11 +193,11 @@ the company on diffent platforms and the conpany logo.
 ##### Manual testing of the ice cream text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it.
 
-    ![print screen of the ice cream section](assets/images/the-ice-cream-mobile.jpg)
-    ![print screen of the ice cream section](assets/images/the-ice-cream-desktop.jpg)
+    ![print screen of the ice cream section](assets/docs/images/the-ice-cream-mobile.jpg)
+    ![print screen of the ice cream section](assets/docs/images/the-ice-cream-desktop.jpg)
 
-    ![print screen of the flavours section](assets/images/our-flavours-mobile.jpg)
-    ![print screen of the flavours section](assets/images/our-flavours-desktop.jpg)
+    ![print screen of the flavours section](assets/docs/images/our-flavours-mobile.jpg)
+    ![print screen of the flavours section](assets/docs/images/our-flavours-desktop.jpg)
 
 #### Our locations 
 
@@ -221,8 +221,8 @@ the company on diffent platforms and the conpany logo.
 - When clicking on the marker at the scockholm location it shows the adress for that location. 
 - Hovering over the buttons to make sure they become darker when hovering over them. 
 
-    ![print screen of locations section](assets/images/our-locations-mobile.jpg)
-    ![print screen of locations section](assets/images/our-locations-desktop.jpg)
+    ![print screen of locations section](assets/docs/images/our-locations-mobile.jpg)
+    ![print screen of locations section](assets/docs/images/our-locations-desktop.jpg)
 
 #### Contact 
 
@@ -237,8 +237,8 @@ the company on diffent platforms and the conpany logo.
 - Fill out all required fields in the form, disconnecting from internet and trying to submit and an error message appears that asks me to try again later appears. 
 - Hovering over the submit button to make sure it becomes darker when hovering over it. 
 
-    ![print screen of contact section](assets/images/contact-mobile.jpg)
-    ![print screen of contact section](assets/images/contact-desktop.jpg)
+    ![print screen of contact section](assets/docs/images/contact-mobile.jpg)
+    ![print screen of contact section](assets/docs/images/contact-desktop.jpg)
 
 ### Responsiveness
 
@@ -296,11 +296,11 @@ The lighthouse scores are presented below.
 
 #### Desktop
 
-![Scores from lighthouse desktop](assets/images/lighthouse.jpg)
+![Scores from lighthouse desktop](assets/docs/images/lighthouse.jpg)
 
 #### Mobile
 
-![scores from lighthouse mobile](assets/images/lighthouse-mobile.jpg)
+![scores from lighthouse mobile](assets/docs/images/lighthouse-mobile.jpg)
 
 ### Bugs
 
