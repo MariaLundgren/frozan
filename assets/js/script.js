@@ -5,7 +5,7 @@
  */
 function fadeIn() {
   let aboutTextPosition = document.querySelector(".aboutText").getBoundingClientRect().y;
-  let textPosition2 = document.querySelector(".iceCreamText").getBoundingClientRect().y;
+  let iceCreamTextPosition = document.querySelector(".iceCreamText").getBoundingClientRect().y;
 
   let scrolled = window.pageYOffset;
 
@@ -13,7 +13,7 @@ function fadeIn() {
     document.querySelector(".aboutText").classList.add("animation");
   }
 
-  if (scrolled >= textPosition2) {
+  if (scrolled >= iceCreamTextPosition) {
     document.querySelector(".iceCreamText").classList.add("animation");
   }
 }
