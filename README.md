@@ -25,9 +25,8 @@ User goals: Get information about the company, the product and where the ice cre
 To prioritize between what would be included on this website I first wrote down ideas of what 
 could be included and then I made an Importance and Viability/feasibility chart to determine what ideas to 
 include in this version and what could be potential features for the future. The ideas in the grey box are 
-the one that will be included in this version and the other could be included in future versions. The user
-stories were written based on the ideas that are in the grey box in the chart. 
-- Importance and Viability/feasibility chart
+the one that will be included in this version and the other could be included in future versions. The chart is made based on what was was important to have on the website for now and how much time it would take to do it and how har the ideas would be to implement. The user stories were written based on the ideas that are in the grey box in the chart. 
+- [Importance and Viability/feasibility chart](assets/images/importance-viability-chart.jpg)
 
 User stories 
 -	As a user I want to get information about the company.
