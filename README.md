@@ -272,6 +272,12 @@ Comments:
 
 ### Performance with lighthouse
 
+To test the performance of the webpage Lighthouse in Google DevTools were used. 
+
+The lighthouse scores are presented below. 
+
+![Scores from lighthouse](assets/images/lighthouse.jpg)
+
 ### Bugs
 
 - When using d-flex on the logo in the footer to get it to be aligned to the left on desktop but in the center 
