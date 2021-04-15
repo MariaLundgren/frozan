@@ -1,4 +1,4 @@
-var map;
+let map;
 
 const MAP_LOCATION = {
   zoom: 15,
@@ -34,14 +34,14 @@ const MY_MARKERS = [
  */
 function initiateMarker() {
   MY_MARKERS.forEach(function (myMarker) {
-    var marker = new google.maps.Marker({
+    let marker = new google.maps.Marker({
       position: new google.maps.LatLng(myMarker.position),
       title: myMarker.title,
       icon: myMarker.icon,
       map: map,
     });
     // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
-    var infoWindow = new google.maps.InfoWindow({
+    let infoWindow = new google.maps.InfoWindow({
       content: myMarker.adress,
     });
     // this is taken from Eamonn Smyths documet "How to google maps" found in code institutes slack channel and slightly altered to fit my project
