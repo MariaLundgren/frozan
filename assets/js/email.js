@@ -1,4 +1,4 @@
-const MODAL = document.getElementById("modal-background");
+
 const MODAL_TEXT = document.getElementById("modalText");
 
 /**
@@ -6,11 +6,11 @@ const MODAL_TEXT = document.getElementById("modalText");
  * @param {object} The modal object.
  */
 function showModal() {
-  MODAL.style.display = "block";
+  document.getElementById("modal-background").style.display = "block";
 }
 
 document.getElementById("modal-button").addEventListener("click", function () {
-  MODAL.style.display = "none";
+  document.getElementById("modal-background").style.display = "none";
 });
 
 /**
