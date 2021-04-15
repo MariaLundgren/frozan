@@ -245,6 +245,12 @@ the company on diffent platforms and the conpany logo.
     ![print screen of contact section](assets/docs/images/contact-mobile.jpg)
     ![print screen of contact section](assets/docs/images/contact-desktop.jpg)
 
+#### 404 page 
+
+##### Manual testing of 404 page. 
+- Trying to go to a page that don't excists on my website and I come to the 404 page. 
+- Clicking on the take me back button and I go back to the website again.
+
 ### Responsiveness
 
 The responsiveness is tested using Chrome and Mozilla Firefox DevTools.
