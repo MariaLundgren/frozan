@@ -131,6 +131,7 @@ the company on diffent platforms and the conpany logo.
 ## Testing
 
 ### Validation
+- To test the HTML I used the []
 
 ### Features 
 
