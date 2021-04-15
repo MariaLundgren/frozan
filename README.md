@@ -85,6 +85,8 @@ font is Sans Seriff.
 
 ## Features 
 
+### Excisting features
+
 - Navbar 
     - The navbar will be sticky so that the user always easily can get to 
 the different part of the website. The navbar becomes a drop down menue
@@ -116,6 +118,12 @@ the company on diffent platforms and the conpany logo.
     to try again later.  
 - 404 page 
     - If the user goes to a non-existing page a 404 page will be implemented with a button that takes them back to the website. 
+
+### Features left to implement 
+- A frequently asked questions section. 
+- A company blog page. 
+- A news/press section. 
+- A jobs/careers section. 
 
 ## Technologies Used
 
