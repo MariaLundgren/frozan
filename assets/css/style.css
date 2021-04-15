@@ -351,3 +351,10 @@ footer {
         max-height: 30%;
     }
 }
+
+/* social icons */
+@media(max-width: 720px) {
+    .social {
+        padding: 1rem;
+    }
+}
