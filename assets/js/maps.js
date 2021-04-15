@@ -31,7 +31,6 @@ const MY_MARKERS = [
 
 /**
  * Function to add marker to the map, with a title and a infowindow.
- * @param {Array} array of markers objects for the map. 
  */
 function initiateMarker() {
   MY_MARKERS.forEach(function (myMarker) {
@@ -54,7 +53,6 @@ function initiateMarker() {
 
 /**
  * Adds a click event listener to a button to change the location of the map.
- * @param {}
  */
 function initialiseCityMap(mapId, lat, lng) {
   document
@@ -76,8 +74,6 @@ function initialiseCityMap(mapId, lat, lng) {
 
 /**
  * Creates a map and sets location on the map, also calls the functions to set markers on the map and change locations.
- * @param {}
- * @returns {}
  */
 function initMap() {
   window.onload = (event) => {
