@@ -146,7 +146,8 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the links to make sure they become darker when hovering over them. 
 - Scrolling down the page to make sure the navbar stays at the top of the browser window. 
 
-![print screen of home section with navbar](assets/images/footer-mobile.jpg)
+    ![print screen of home section with navbar](assets/images/home-mobile.jpg)
+    ![print screen of home section with navbar](assets/images/home-desktop.jpg)
 
 #### Footer
 
@@ -161,7 +162,8 @@ the company on diffent platforms and the conpany logo.
 - Clicking og the Linkedin icon and that opens up linkedin.com in a new browser window. 
 - Hovering over the social icons to make sure they become darker when hovering over them. 
 
-![print screen of footer](assets/images/contact-mobile.jpg)
+    ![print screen of footer section with navbar](assets/images/footer-mobile.jpg)
+    ![print screen of footer section with navbar](assets/images/footer-desktop.jpg)
 
 #### About us 
 
@@ -172,7 +174,8 @@ the company on diffent platforms and the conpany logo.
 ##### Manual testing of about us text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it.
 
-![print screen on about us section](assets/images/about-us-mobile.jpg)
+    ![print screen on about us section](assets/images/about-us-mobile.jpg)
+    ![print screen on about us section](assets/images/about-us-desktop.jpg)
 
 #### The ice cream 
 
@@ -185,8 +188,11 @@ the company on diffent platforms and the conpany logo.
 ##### Manual testing of the ice cream text animation. 
 - Scrolling down to this section to make sure the text fades in when scrolling to it.
 
-![print screen of the ice cream section](assets/images/the-ice-cream-mobile.jpg)
-![print screen of the flavours section](assets/images/our-flavours-mobile.jpg)
+    ![print screen of the ice cream section](assets/images/the-ice-cream-mobile.jpg)
+    ![print screen of the ice cream section](assets/images/the-ice-cream-desktop.jpg)
+
+    ![print screen of the flavours section](assets/images/our-flavours-mobile.jpg)
+    ![print screen of the flavours section](assets/images/our-flavours-desktop.jpg)
 
 #### Our locations 
 
@@ -211,6 +217,7 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the buttons to make sure they become darker when hovering over them. 
 
     ![print screen of locations section](assets/images/our-locations-mobile.jpg)
+    ![print screen of locations section](assets/images/our-locations-desktop.jpg)
 
 #### Contact 
 
@@ -226,6 +233,7 @@ the company on diffent platforms and the conpany logo.
 - Hovering over the submit button to make sure it becomes darker when hovering over it. 
 
     ![print screen of contact section](assets/images/contact-mobile.jpg)
+    ![print screen of contact section](assets/images/contact-desktop.jpg)
 
 ### Responsiveness
 
