@@ -138,7 +138,7 @@ the company on diffent platforms and the conpany logo.
 - To test the CSS I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
     - In the CSS validator I got no errors or warnings on my code. 
 - To test the JavaScript I used [JSHint](https://jshint.com/).
-    - First I got warning messages about missing semicolon in a few places but after fixing this I got no warnings in JSHint.
+    - First I got warning messages about missing semicolon in a few places but after fixing this I got no warnings in JSHint. I didn't have any warnings but in my email.js file and in the maps.js file JSHint tells me that i have undefined and unused variables. This is code that comes from the API and JSHint can't detect it and wbecause of this it is not defined in JSHint.
 
 ### Features 
 
