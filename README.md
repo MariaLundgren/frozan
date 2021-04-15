@@ -114,6 +114,8 @@ the company on diffent platforms and the conpany logo.
     the valid information a model with a thank you message will appear if the submit was sucessfull. 
     If something is wrong and the for isn't submitted a error messase will appear that promts the user 
     to try again later.  
+- 404 page 
+    - If the user goes to a non-existing page a 404 page will be implemented with a button that takes them back to the website. 
 
 ## Technologies Used
 
