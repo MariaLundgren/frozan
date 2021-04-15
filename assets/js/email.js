@@ -2,7 +2,9 @@
  * Shows modal when submitting contact form and adds click function to modal button to be able to close modal.
  */
 function showModal() {
+  window.addEventListener("DOMContentLoaded", (event) => {
   document.getElementById("modal-background").style.display = "block";
+  });
 }
 
 document.getElementById("modal-button").addEventListener("click", function () {
