@@ -131,7 +131,12 @@ the company on diffent platforms and the conpany logo.
 ## Testing
 
 ### Validation
-- To test the HTML I used the []
+- To test the HTML I used the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input).
+    - First I got warning message in the validator saying that the type attribute for JavaScript resources was usessesary, after deliting them the validator showed no warnings or errors. 
+- To test the CSS I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+    - In the CSS validator I got no errors or warnings on my code. 
+- To test the JavaScript I used [JSHint](https://jshint.com/).
+    - First I got warning messages about missing semicolon in a few places but after fixing this I got no warnings in JSHint.
 
 ### Features 
 
