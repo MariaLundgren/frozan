@@ -1,6 +1,4 @@
 
-const MODAL_TEXT = document.getElementById("modalText");
-
 /**
  * Shows modal when submitting contact form.
  * @param {object} The modal object.
@@ -31,13 +29,13 @@ function sendMail(contactForm) {
         console.log("success", response);
         document.getElementById("myForm").reset();
         showModal();
-        MODAL_TEXT.innerHTML =
+        document.getElementById("modalText").innerHTML =
           "Thank you for your message! <br> We usually respond within 48 hours on weekdays.";
       },
       function (error) {
         console.log("failed", error);
         showModal();
-        MODAL_TEXT.innerHTML = "Something went wrong! Please try again later.";
+        document.getElementById("modalText").innerHTML = "Something went wrong! Please try again later.";
       }
     );
   return false;
