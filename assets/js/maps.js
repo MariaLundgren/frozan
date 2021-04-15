@@ -1,6 +1,6 @@
 var map;
 
-const mapLocation = {
+const MAP_LOCATION = {
   zoom: 15,
   center: {
     lat: 59.33179,
@@ -8,7 +8,7 @@ const mapLocation = {
   },
 };
 
-const myMarkers = [
+const MY_MARKERS = [
   {
     position: { lat: 59.33179, lng: 18.04498 },
     title: "frozan Stockholm",
@@ -35,7 +35,7 @@ const myMarkers = [
  * @returns {}
  */
 function initiateMarker() {
-  myMarkers.forEach(function (myMarker) {
+  MY_MARKERS.forEach(function (myMarker) {
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(myMarker.position),
       title: myMarker.title,
@@ -83,7 +83,7 @@ function initialiseCityMap(mapId, lat, lng) {
  */
 function initMap() {
   window.onload = (event) => {
-    map = new google.maps.Map(document.getElementById("map"), mapLocation);
+    map = new google.maps.Map(document.getElementById("map"), MAP_LOCATION);
 
     initiateMarker();
 
