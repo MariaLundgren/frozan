@@ -138,6 +138,11 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+.ice-cream-image-small {
+  height: 100%;
+  width: auto;
+}
+
 .ice-cream-text {
   margin: auto;
   max-width: 400px;
