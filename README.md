@@ -375,3 +375,5 @@ I also took some code from his document and customized it to my project, these p
 - The ice cream image by [Elza Kurbanova](https://unsplash.com/@kurbanova) from [Unsplash](https://unsplash.com/). 
 
 ### Acknowledgements
+- I would also like to thank my mentor Rohit Sharma for his advice and guidence in this project.
+- The code institute slack channel has been very helpfull in this process to find awnsers to questions and problems during the way.
