@@ -298,10 +298,12 @@ footer {
 /*404 page*/
 .content-404 {
     padding-top: 10rem;
+    padding-bottom: 2rem;
 }
 
 .button-404 {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
 }
 
 /* Media queries */ 
