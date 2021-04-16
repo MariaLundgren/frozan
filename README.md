@@ -310,7 +310,7 @@ Comments:
 
 ### Performance with lighthouse
 
-To test the performance of the webpage Lighthouse in Google DevTools was used. 
+To test the performance of the webpage Lighthouse in Google DevTools was used. To get a higher score on lighthouse smaller images are used for small screens for the images that lighthouse suggested that the images wasn't properly sized. I have also compressed the images used on the website so that the file sizes became smaller. 
 
 The lighthouse scores are presented below. 
 
