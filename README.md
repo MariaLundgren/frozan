@@ -15,7 +15,7 @@ they are selling. The main USP for the company is that they have vegan oat-based
 premiere this content on the website. The structure of the website needs to be easy so that the user immediately understands how to use the 
 website and its purpose. The main target audience will be people who eat a plant-based diet or wants to eat a more plant-based diet. Since 
 the site is B2C there will be large images and illustrations on the website and small chunks of content to make the website compelling and to 
-feel overloaded with content for the users.
+not feel overloaded with content for the users.
 
 ### 2 Scope
 Site owners’ goal: To create an online presence and inform about the company, the product, and location.
@@ -47,7 +47,7 @@ on the webpage and content to get the user interested, then moving down the
 website more specific information will be presented.
 
 ### 4 Skeleton
-That the company sells vegan oat-based ice cream will be the first thing 
+That the company sells vegan ice cream will be the first thing 
 presented on the website since this is the information that is the most 
 prioritized on the webpage. Then moving down the structure more specific 
 content about the company, flavors, locations, and at the end a contact 
@@ -55,7 +55,7 @@ form for the customers who want to contact the company will be presented.
 
 The website has a lot of whitespace in the design, and this is both to 
 make the design more minimalistic and less cluttered but also because to 
-have few features increases usability, which is highly prioritized.
+not have to many features increases usability, which is highly prioritized.
 
 Figma was used to create the wireframes that are linked below.
 
@@ -64,16 +64,17 @@ Figma was used to create the wireframes that are linked below.
 - [Mobile](assets/docs/wireframes/mobile-wireframe.pdf)
 
 #### Changes from the wireframes made in the project 
-In the process, I have not followed the wireframes exactly. The changes are mostly in the tablet version of the project where I have developed the website differently than in the wireframes. In the about us section and the ice cream section I chose to have the pictures and text next to each other like have on the desktop version on the wireframe rather than having the text above the image as in the wireframe for tablets. The reason for this is that with the chosen images and the length of the text that is placed in these sections I thought that it looked better to have them side by side than the text above the image. 
+In the process, I have not followed the wireframes exactly. The changes are mostly in the tablet version of the project where I have developed the website differently than in the wireframes. In the about us section and the ice cream section I chose to have the pictures and text next to each other like have on the desktop version on the wireframe rather than having the text above the image as in the wireframe for tablets. The reason for this is that with the chosen images and the length of the text that is placed in these sections I thought looked better to have side by side than the text above the image. 
 
 ### 5 Surface
 
 #### Colors
-The color palette chosen for this project is soft to match the theme of 
-ice cream and feel fun. The pink color being the strongest is used sparingly 
-hrough the design to direct attention to certain elements and the dark grey
+The color palette chosen for this project is soft and colorful to match the theme of 
+ice cream and feel fun. The pink and blue being the strongest colors is used more sparingly 
+through the design to direct attention to certain elements and the dark grey
 color is used for text to have good legibility but still be softer than 
-a pure black color for the font.
+a pure black color for the font. The yellow color beeing the softest are 
+used for bigger elements line, navbar and footer. 
 ![Color Palette](assets/docs/images/color-palette.png)
 
 #### Typography 
@@ -95,7 +96,7 @@ on tablet and mobile devices.
 the company on different platforms and the company logo. 
 - Home 
     - The home section will contain a hero image and the company logo and 
-    text about the product that the company sells. 
+    text to get the users attention.
 - About us
     - The about us section will contain a short text about the company and 
     an image. 
@@ -104,14 +105,13 @@ the company on different platforms and the company logo.
     an image next to it and beneath all the different flavors of ice cream
     that the company offers. 
 - Our Location 
-    - The location section will contain three buttons with the cities that the
-    ice cream shops are available in and a Google maps where you can see where in 
-    the city the shops are located. This section will also contain the opening
+    - The location section will contain three buttons that will take the user to the cities that the
+    ice cream shops are available in on the Google maps map. This section will also contain the opening
     hours of the ice cream shops. 
 - Contact 
     - The contact section will contain a contact form that users can use if they
     want to get in contact with the company. All the fields in the form will be required to 
-    fill for the user to be able to send the contact form. When submitting the form with all 
+    fill out for the user to be able to send the contact form. When submitting the form with all 
     the valid information a model with a thank you message will appear if the submit was successful. 
     If something is wrong and the form isn't submitted an error message will appear that prompts the user to try again later.  
 - 404 page 
@@ -136,7 +136,7 @@ the company on different platforms and the company logo.
 - [Figma](https://www.figma.com/) was used to make wireframes for the project. 
 - [TinyJPG](https://tinyjpg.com/) was used to compress images. 
 - [Photoshop](https://www.adobe.com/products/photoshop.html) was used to edit some of the images used in the project. 
-- [Illustrator](https://www.adobe.com/products/illustrator.html) was used to make some of the components used in the project. 
+- [Illustrator](https://www.adobe.com/products/illustrator.html) was used to make some illustrations and the logo. 
 
 ## Testing
 
@@ -306,7 +306,7 @@ Comments:
 
 ### Performance with lighthouse
 
-To test the performance of the webpage Lighthouse in Google DevTools was used. To get a higher score on lighthouse smaller images are used for small screens for the images that lighthouse suggested that the images wasn't properly sized. I have also compressed the images used on the website so that the file sizes became smaller. 
+To test the performance of the webpage Lighthouse in Google DevTools was used. To get a higher score on lighthouse smaller images are used for small screens for the images that lighthouse suggested that the images wasn't properly sized on mobile. I have also compressed the images used on the website so that the file sizes became smaller. 
 
 The lighthouse scores are presented below. 
 
@@ -360,7 +360,7 @@ Most of the code in this project is written by me however, some smaller sections
 - The function to send an email when filling out the contact form is taken from code institutes lesson on Email.js and customized to fit my project.
 The code that I took from this lesson is commented in the regarding place. 
 - To help implement the Google Maps API I got a lot of help from the google maps API documentation. 
-- To customize the map I also got a lot of help from Eamonn Smyth's document "How to google maps" found in code institutes slack channel. 
+- To customize the map I also got a lot of help from Eamonn Smyth's document "How to google maps" found in code institutes slack channel to understad the code and how to do this. 
 I also took some code from his document and customized it to my project, these places are commented on in the code. 
 
 ### Media 
