@@ -346,6 +346,19 @@ footer {
     }
 }
 
+/* the ice cream */ 
+@media(max-width: 720px) {
+    .ice-cream-image {
+    display: none;
+    }
+}
+
+@media(min-width: 720px) {
+    .ice-cream-image-small {
+    display: none;
+    }
+}
+
 /* modal */ 
 @media(min-width: 720px) {
     #modal {
