@@ -30,7 +30,8 @@ const MY_MARKERS = [
 ];
 
 /**
- * Function to add marker to the map, with a title and a infowindow.
+ * Function to add marker to the map with a title, infowindow, and a custom marker from the array MY_MARKERS.
+ * Adds a click function to the marker to open the infoWindow.
  */
 function initiateMarker() {
   MY_MARKERS.forEach(function (myMarker) {
@@ -52,28 +53,26 @@ function initiateMarker() {
 }
 
 /**
- * Adds a click event listener to a button to change the location of the map.
+ * Adds a click event listener to buttons to change the location of the map.
  */
- function initialiseCityMap() {
-  document
-    .getElementById("malmoMap")
+function initialiseCityMap() {
+  document.getElementById("malmoMap")
     .addEventListener("click", function (event) {
       map.panTo({ lat: 55.60681, lng: 13.00025 });
     });
-  document
-    .getElementById("goteborgMap")
+  document.getElementById("goteborgMap")
     .addEventListener("click", function (event) {
       map.panTo({ lat: 57.70338, lng: 11.97268 });
     });
-  document
-    .getElementById("stockholmMap")
+  document.getElementById("stockholmMap")
     .addEventListener("click", function (event) {
       map.panTo({ lat: 59.33179, lng: 18.04498 });
     });
 }
 
 /**
- * Creates a map and sets location on the map, also calls the functions to set markers on the map and change locations.
+ * Creates a map and sets location on the map from MAP_LOCATION.
+ * Calls the functions to set markers on the map and change locations with the buttons.
  */
 function initMap() {
   window.onload = (event) => {
