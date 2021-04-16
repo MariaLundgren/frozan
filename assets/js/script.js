@@ -1,9 +1,13 @@
 /**
- * Adds the fade in effect when scrolling down the page to text in about us and the ice cream section. 
+ * Adds the fade in effect when scrolling down the page to text in about us and the ice cream section.
  */
 function fadeIn() {
-  let aboutTextPosition = document.querySelector(".aboutText").getBoundingClientRect().y;
-  let iceCreamTextPosition = document.querySelector(".iceCreamText").getBoundingClientRect().y;
+  let aboutTextPosition = document
+    .querySelector(".aboutText")
+    .getBoundingClientRect().y;
+  let iceCreamTextPosition = document
+    .querySelector(".iceCreamText")
+    .getBoundingClientRect().y;
 
   let scrolled = window.pageYOffset;
 
