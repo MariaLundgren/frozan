@@ -313,7 +313,7 @@ footer {
 /*heroimage*/
 @media (max-width: 720px) {
   .hero-container {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     position: relative;
     overflow: hidden;
