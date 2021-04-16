@@ -54,21 +54,21 @@ function initiateMarker() {
 /**
  * Adds a click event listener to a button to change the location of the map.
  */
-function initialiseCityMap(mapId, lat, lng) {
+ function initialiseCityMap() {
   document
     .getElementById("malmoMap")
     .addEventListener("click", function (event) {
-      map.setCenter(new google.maps.LatLng(55.60681, 13.00025));
+      map.panTo({ lat: 55.60681, lng: 13.00025 });
     });
   document
     .getElementById("goteborgMap")
     .addEventListener("click", function (event) {
-      map.setCenter(new google.maps.LatLng(57.70338, 11.97268));
+      map.panTo({ lat: 57.70338, lng: 11.97268 });
     });
   document
     .getElementById("stockholmMap")
     .addEventListener("click", function (event) {
-      map.setCenter(new google.maps.LatLng(59.33179, 18.04498));
+      map.panTo({ lat: 59.33179, lng: 18.04498 });
     });
 }
 
