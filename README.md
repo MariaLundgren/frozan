@@ -288,7 +288,6 @@ In Mozilla Firefox DevTools these devices are tested for responsiveness:
 - iPhone X/XS
 - Kindle Fire HDX
 
-
 ### Browsers
 
 The webpage is tested in the following browsers: 
@@ -300,13 +299,10 @@ The webpage is tested in the following browsers:
 - Opera 
 
 Not supported browsers: 
-
 - Internet Explorer
 
 Comments: 
-
 - The navigation works in Safari however the smooth scroll effect is not supported by Safari so that doesn't work in this browser. 
-
 
 ### Performance with lighthouse
 
@@ -366,8 +362,6 @@ The code that I took from this lesson is commented in the regarding place.
 - To help implement the Google Maps API I got a lot of help from the google maps API documentation. 
 - To customize the map I also got a lot of help from Eamonn Smyth's document "How to google maps" found in code institutes slack channel. 
 I also took some code from his document and customized it to my project, these places are commented on in the code. 
-
-
 
 ### Media 
 - Hero image by [Kenta Kikuchi](https://unsplash.com/@kentas_photography) from [Unsplash](https://unsplash.com/).
