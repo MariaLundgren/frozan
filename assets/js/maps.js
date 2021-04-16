@@ -12,19 +12,19 @@ const MY_MARKERS = [
   {
     position: { lat: 59.33179, lng: 18.04498 },
     title: "frozan Stockholm",
-    adress: "Scheelegatan 24, 112 28 Stockholm",
+    adress: "<p>Scheelegatan 24, 112 28 Stockholm</p>",
     icon: "assets/images/marker.png",
   },
   {
     position: { lat: 57.70338, lng: 11.97268 },
     title: "frosan Göteborg",
-    adress: "Gamla Allén 2, 411 06 Göteborg",
+    adress: "<p>Gamla Allén 2, 411 06 Göteborg</p>",
     icon: "assets/images/marker.png",
   },
   {
     position: { lat: 55.60681, lng: 13.00025 },
     title: "frozan Malmö",
-    adress: "Stortorget 3, 211 22 Malmö",
+    adress: "<p>Stortorget 3, 211 22 Malmö</p>",
     icon: "assets/images/marker.png",
   },
 ];
@@ -35,7 +35,7 @@ const MY_MARKERS = [
 function initiateMarker() {
   MY_MARKERS.forEach(function (myMarker) {
     let marker = new google.maps.Marker({
-      position: new google.maps.LatLng(myMarker.position),
+      position: myMarker.position,
       title: myMarker.title,
       icon: myMarker.icon,
       map: map,
