@@ -297,11 +297,12 @@ footer {
 
 /*404 page*/
 .content-404 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     margin: auto;
-    transform: translate(-50%, -50%);
+    padding-top: 10rem;
+}
+
+.button-404 {
+    margin-top: 2rem;
 }
 
 /* Media queries */ 
